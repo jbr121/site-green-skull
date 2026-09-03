@@ -8,6 +8,8 @@ const multer = require("multer");
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
 const IS_PROD = NODE_ENV === "production";
+const BASIC_AUTH_USER = process.env.BASIC_AUTH_USER || "admin";
+const BASIC_AUTH_PASS = process.env.BASIC_AUTH_PASS || "apresentacao2024";
 const DATA_DIR = path.join(__dirname, "data");
 const DB_PATH = NODE_ENV === "test" ? path.join(DATA_DIR, "db.test.json") : path.join(DATA_DIR, "db.json");
 const DB_FIXTURE = path.join(DATA_DIR, "db.test.json");
@@ -224,6 +226,45 @@ function requireRoles(roles) {
 const requireAdmin = requireRoles(["admin"]);
 const requireEditor = requireRoles(["admin", "editor"]);
 
+// Basic auth for public presentation access (site + catalog API)
+function basicAuth(req, res, next) {
+  if (req.path.startsWith("/api/")) return next();
+  const auth = req.headers.authorization;
+  if (!auth || !auth.startsWith("Basic ")) {
+    res.setHeader("WWW-Authenticate", 'Basic realm="GOLD SKULL"');
+    return res.status(401).send("Acesso restrito. Use as credenciais fornecidas.");
+  }
+  try {
+    const [user, pass] = Buffer.from(auth.split(" ")[1], "base64").toString("utf8").split(":");
+    if (user !== BASIC_AUTH_USER || pass !== BASIC_AUTH_PASS) {
+      res.setHeader("WWW-Authenticate", 'Basic realm="GOLD SKULL"');
+      return res.status(401).send("Credenciais inválidas.");
+    }
+    next();
+  } catch {
+    res.setHeader("WWW-Authenticate", 'Basic realm="GOLD SKULL"');
+    return res.status(401).send("Credenciais inválidas.");
+  }
+}
+function basicAuthApi(req, res, next) {
+  const auth = req.headers.authorization;
+  if (!auth || !auth.startsWith("Basic ")) {
+    res.setHeader("WWW-Authenticate", 'Basic realm="GOLD SKULL"');
+    return res.status(401).json({ error: "Acesso restrito." });
+  }
+  try {
+    const [user, pass] = Buffer.from(auth.split(" ")[1], "base64").toString("utf8").split(":");
+    if (user !== BASIC_AUTH_USER || pass !== BASIC_AUTH_PASS) {
+      res.setHeader("WWW-Authenticate", 'Basic realm="GOLD SKULL"');
+      return res.status(401).json({ error: "Credenciais inválidas." });
+    }
+    next();
+  } catch {
+    res.setHeader("WWW-Authenticate", 'Basic realm="GOLD SKULL"');
+    return res.status(401).json({ error: "Credenciais inválidas." });
+  }
+}
+
 // Simple in-memory rate limiter for login
 const loginAttempts = new Map();
 function checkLoginRate(ip) {
@@ -296,13 +337,13 @@ app.use(
     },
   })
 );
-app.use("/uploads", express.static(UPLOADS));
-app.use("/uploads", express.static(PUBLIC_UPLOADS));
-app.use(express.static(path.join(__dirname, "public")));
+app.use("/uploads", basicAuth, express.static(UPLOADS));
+app.use("/uploads", basicAuth, express.static(PUBLIC_UPLOADS));
+app.use(basicAuth, express.static(path.join(__dirname, "public")));
 
 app.get("/api/health", (_req, res) => res.json({ ok: true, env: NODE_ENV }));
 
-app.get("/api/public/store", (_req, res) => {
+app.get("/api/public/store", basicAuthApi, (_req, res) => {
   const db = loadDb();
   const products = db.products
     .filter((p) => p.active !== false)
