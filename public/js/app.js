@@ -22,6 +22,33 @@
   const money = (v) => (v || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+  /* ---------- focus management ---------- */
+  let productModalTrigger = null;
+  let cartTrigger = null;
+  function focusableElements(container) {
+    return Array.from(container.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')).filter((el) => el.offsetParent !== null && !el.disabled);
+  }
+  function trapFocus(container, returnTo) {
+    const handler = (e) => {
+      if (e.key !== 'Tab') return;
+      const els = focusableElements(container);
+      if (els.length === 0) return;
+      if (e.shiftKey && document.activeElement === els[0]) { e.preventDefault(); els[els.length - 1].focus(); }
+      else if (!e.shiftKey && document.activeElement === els[els.length - 1]) { e.preventDefault(); els[0].focus(); }
+    };
+    container._trapHandler = handler;
+    container.addEventListener('keydown', handler);
+    const first = focusableElements(container)[0];
+    if (first) first.focus();
+    return () => {
+      container.removeEventListener('keydown', handler);
+      if (returnTo && returnTo.focus) returnTo.focus();
+    };
+  }
+  let untrapModal = null;
+  let untrapCart = null;
+  let untrapAge = null;
+
   /* ---------- storage ---------- */
   function loadCart() {
     try { return JSON.parse(localStorage.getItem('gs_cart')) || []; } catch { return []; }
@@ -78,12 +105,15 @@
   /* ---------- age gate ---------- */
   function initAgeGate() {
     if (localStorage.getItem('gs_age') === 'ok') return;
-    $('#age-gate').classList.remove('hidden');
+    const gate = $('#age-gate');
+    gate.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+    untrapAge = trapFocus(gate, $('#age-yes'));
     $('#age-yes').addEventListener('click', () => {
       localStorage.setItem('gs_age', 'ok');
-      $('#age-gate').classList.add('hidden');
+      gate.classList.add('hidden');
       document.body.style.overflow = '';
+      if (untrapAge) { untrapAge(); untrapAge = null; }
     });
   }
 
@@ -100,8 +130,6 @@
         tagline: s.tagline || '',
         description: s.extra || '',
         whatsapp: String(s.whatsapp || '').replace(/\D/g, ''),
-        instagram: s.instagram || '',
-        instagramUrl: s.instagram ? 'https://instagram.com/' + String(s.instagram).replace(/^@/, '') : '',
         address: s.address || '',
         banner: s.banner || '',
         checkoutMessage: s.checkoutMessage || '',
@@ -161,7 +189,6 @@
     const wa = s.whatsapp ? `https://wa.me/${s.whatsapp}` : '#';
     $('#wa-float').href = wa;
     $('#footer-wa').href = wa;
-    if (s.instagramUrl) $('#footer-ig').href = s.instagramUrl;
     if (!state.shipId && s.shipping[0]) state.shipId = s.shipping[0].id;
     fillGuest();
     if (!state.pay && s.payments[0]) state.pay = s.payments[0];
@@ -318,7 +345,7 @@
     const nav = $('#categories');
     const pills = [{ id: 'all', name: 'Todas' }, ...state.categories];
     nav.innerHTML = pills
-      .map((c) => `<button class="cat-pill ${c.id === state.activeCategory ? 'active' : ''}" data-cat="${esc(c.id)}">${esc(c.name)}</button>`)
+      .map((c) => `<button class="cat-pill ${c.id === state.activeCategory ? 'active' : ''}" data-cat="${esc(c.id)}" aria-pressed="${c.id === state.activeCategory}">${esc(c.name)}</button>`)
       .join('');
     nav.querySelectorAll('.cat-pill').forEach((b) =>
       b.addEventListener('click', () => {
@@ -368,9 +395,12 @@
     $('#result-count').textContent = `${list.length} ${list.length === 1 ? 'item' : 'itens'}`;
     $('#empty').classList.toggle('hidden', list.length > 0);
     grid.innerHTML = list.map((p, i) => cardHtml(p, i)).join('');
-    grid.querySelectorAll('.card').forEach((el) =>
-      el.addEventListener('click', () => openModal(el.dataset.id))
-    );
+    grid.querySelectorAll('.card').forEach((el) => {
+      el.addEventListener('click', () => openModal(el.dataset.id, el));
+      el.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(el.dataset.id, el); }
+      });
+    });
   }
 
   const IMG_FALLBACK = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23efede6%22/><rect x=%2210%22 y=%2210%22 width=%2280%22 height=%2280%22 rx=%2212%22 fill=%22%23ffbe0e%22/><text x=%2250%22 y=%2268%22 text-anchor=%22middle%22 font-size=%2248%22 font-weight=%22bold%22 fill=%22%23181200%22 font-family=%22Arial%22>G</text></svg>";
@@ -378,7 +408,7 @@
   function cardHtml(p, i) {
     const promo = p.originalPrice && p.originalPrice > p.price;
     return `
-      <article class="card ${p.outOfStock ? 'out' : ''}" data-id="${esc(p.id)}" role="button" tabindex="0" style="animation-delay:${Math.min(i * 35, 400)}ms">
+      <article class="card ${p.outOfStock ? 'out' : ''}" data-id="${esc(p.id)}" role="button" tabindex="0" aria-label="${esc(p.outOfStock ? 'Esgotado' : 'Comprar')} ${esc(p.name)} — ${money(p.price)}" style="animation-delay:${Math.min(i * 35, 400)}ms">
         <div class="card-img-wrap">
           <img class="card-img" loading="lazy" src="${esc(p.image)}" alt="${esc(p.name)}" onerror="this.src='${IMG_FALLBACK}'" />
           ${promo ? '<span class="badge badge-promo">Promoção</span>' : ''}
@@ -399,9 +429,10 @@
   }
 
   /* ---------- product modal ---------- */
-  function openModal(id) {
+  function openModal(id, triggerEl) {
     const p = state.products.find((x) => x.id === id);
     if (!p) return;
+    productModalTrigger = triggerEl || document.activeElement;
     state.modalProduct = p;
     state.modalQty = 1;
     state.modalOption = '';
@@ -475,17 +506,18 @@
           return;
         }
         addToCart(p.id, state.modalQty, state.modalOption);
-        $('#product-modal').classList.add('hidden');
-        openCart();
+        openCart(productModalTrigger);
         toast('Pronto. Agora preencha seus dados e aperte ENVIAR.');
       });
     }
     $('#product-modal').classList.remove('hidden');
     $('#drawer-backdrop').classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+    untrapModal = trapFocus($('#product-modal'), productModalTrigger);
   }
   function closeModal() {
     $('#product-modal').classList.add('hidden');
+    if (untrapModal) { untrapModal(); untrapModal = null; }
     if ($('#cart-drawer').classList.contains('hidden')) {
       $('#drawer-backdrop').classList.add('hidden');
       document.body.style.overflow = '';
@@ -563,6 +595,10 @@
     return (state.store.shipping || []).find((s) => s.id === state.shipId) || (state.store.shipping || [])[0] || null;
   }
 
+  function announceCart(msg) {
+    const el = $('#cart-live');
+    if (el) el.textContent = msg;
+  }
   function renderCartBar() {
     const items = state.cart
       .map((i) => ({ ...i, product: state.products.find((p) => p.id === i.id) }))
@@ -576,6 +612,7 @@
     document.body.classList.toggle('has-cart-bar', n > 0);
     const totalEl = $('#cart-bar-total');
     if (totalEl) totalEl.textContent = money(total);
+    if (n > 0) announceCart(`${n} ${n === 1 ? 'item' : 'itens'} no pedido. Total ${money(total)}`);
   }
 
   function setCheckoutStep(step) {
@@ -645,9 +682,9 @@
           ${i.option ? `<div class="cart-item-opt">${esc(i.option)}</div>` : ''}
           <div class="cart-item-row">
             <div class="qty small">
-              <button data-act="minus" data-key="${esc(key)}">−</button>
-              <span>${i.qty}</span>
-              <button data-act="plus" data-key="${esc(key)}">+</button>
+              <button data-act="minus" data-key="${esc(key)}" aria-label="Diminuir quantidade">−</button>
+              <span aria-label="Quantidade">${i.qty}</span>
+              <button data-act="plus" data-key="${esc(key)}" aria-label="Aumentar quantidade">+</button>
             </div>
             <span class="cart-item-price">${money(i.product.price * i.qty)}</span>
           </div>
@@ -677,13 +714,18 @@
       summary.classList.toggle('hidden', !has);
       summary.textContent = has ? `${n} ${n === 1 ? 'item' : 'itens'} · ${money(total)}` : '';
     }
+    if (has) announceCart(`${n} ${n === 1 ? 'item' : 'itens'} no pedido. Total ${money(total)}`);
     renderChoices();
     renderCityBanner();
     renderCartBar();
     if (has) setCheckoutStep(state.checkoutStep);
   }
 
-  function openCart() {
+  function openCart(triggerEl) {
+    if (!$('#product-modal').classList.contains('hidden')) {
+      $('#product-modal').classList.add('hidden');
+      if (untrapModal) { untrapModal(); untrapModal = null; }
+    }
     state.checkoutStep = 1;
     setCityConfirmed(false);
     renderCart();
@@ -691,9 +733,12 @@
     $('#cart-drawer').classList.remove('hidden');
     $('#drawer-backdrop').classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+    cartTrigger = triggerEl || document.activeElement;
+    untrapCart = trapFocus($('#cart-drawer'), cartTrigger);
   }
   function closeCart() {
     $('#cart-drawer').classList.add('hidden');
+    if (untrapCart) { untrapCart(); untrapCart = null; }
     if ($('#product-modal').classList.contains('hidden')) {
       $('#drawer-backdrop').classList.add('hidden');
       document.body.style.overflow = '';
@@ -756,8 +801,8 @@
       renderGrid();
     }, 160);
   });
-  $('#cart-open').addEventListener('click', openCart);
-  $('#cart-bar-open').addEventListener('click', openCart);
+  $('#cart-open').addEventListener('click', () => openCart($('#cart-open')));
+  $('#cart-bar-open').addEventListener('click', () => openCart($('#cart-bar-open')));
   $('#cart-close').addEventListener('click', closeCart);
   $('#modal-close').addEventListener('click', closeModal);
   $('#drawer-backdrop').addEventListener('click', () => { closeModal(); closeCart(); });

@@ -4,7 +4,7 @@
     "tagline": "Loja online de flavors THC",
     "extra": "Produtos Premium · Delta-9 · Live Resin · Live Rosin · Liquid Diamond · Pods THC\nAtendimento para clientes exclusivos · Entrega rápida e discreta",
     "whatsapp": "5583920027847",
-    "instagram": "GOLDSKULL",
+    "instagram": "",
     "address": "Santa Catarina",
     "themeColor": "#ffbe0e",
     "banner": "/img/hero-default.svg",
@@ -2354,8 +2354,8 @@
       "username": "admin",
       "name": "Administrador",
       "role": "admin",
-      "salt": "040bb8c890b224411e6f90d27cde22dc",
-      "hash": "60a71a69e17ac04f12b6112da9965c0a99164ef33b2786c982f87f99a351ba2aa65f8c42701f5897c3e69399e12ee8a03892e3aa630c1789f87a81961c157a66",
+      "salt": "2055a0406c84626e1aec20eb1a023ad4",
+      "hash": "ee80edd1698efb1442d79baffc5ebc11c798188ac64fb40e98d0f565648c2c878aa65512a93c7667ae1bf94d5fda7368c64c0dfff509225346947aa22ba0dd53",
       "createdAt": "2026-08-31T20:35:44.702Z"
     }
   ],

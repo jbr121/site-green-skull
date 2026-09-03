@@ -1,0 +1,151 @@
+{
+  "settings": {
+    "name": "GOLD SKULL TEST",
+    "tagline": "Loja de testes",
+    "extra": "Produtos de teste para E2E",
+    "whatsapp": "5583999999999",
+    "instagram": "",
+    "address": "Santa Catarina",
+    "themeColor": "#ffbe0e",
+    "banner": "",
+    "payments": [
+      "Pix",
+      "Cartão via link"
+    ],
+    "shipping": [
+      {
+        "name": "Itajaí",
+        "price": 15,
+        "description": "Motoboy — entrega rápida"
+      },
+      {
+        "name": "Joinville",
+        "price": 15,
+        "description": "Motoboy — entrega rápida"
+      },
+      {
+        "name": "Outras cidades",
+        "price": 50,
+        "description": "Transportadora"
+      }
+    ],
+    "checkoutMessage": "Obrigado pelo pedido!"
+  },
+  "categories": [
+    "Itajaí",
+    "Joinville",
+    "Atacado"
+  ],
+  "products": [
+    {
+      "name": "Produto Cypress",
+      "description": "",
+      "price": 250,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "stock": null,
+      "stockActive": false,
+      "cost": null,
+      "pin": false,
+      "active": true,
+      "image": "",
+      "optionGroup": "",
+      "options": [],
+      "id": "p-mtlsk7ao-deffcb",
+      "createdAt": "2026-09-03T17:20:59.376Z"
+    },
+    {
+      "name": "Produto Cypress",
+      "description": "",
+      "price": 300,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "stock": null,
+      "stockActive": false,
+      "cost": null,
+      "pin": false,
+      "active": true,
+      "image": "",
+      "optionGroup": "",
+      "options": [],
+      "id": "p-mtlsjjll-2087e4",
+      "createdAt": "2026-09-03T17:20:28.665Z"
+    },
+    {
+      "name": "Produto Cypress",
+      "description": "",
+      "price": 300,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "stock": null,
+      "stockActive": false,
+      "cost": null,
+      "pin": false,
+      "active": true,
+      "image": "",
+      "optionGroup": "",
+      "options": [],
+      "id": "p-mtls8jxi-ec3ecb",
+      "createdAt": "2026-09-03T17:11:55.878Z"
+    },
+    {
+      "id": "test-p1",
+      "name": "POD THC TESTE",
+      "description": "Produto criado para testes automatizados.",
+      "price": 100,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "",
+      "stock": 10,
+      "stockActive": true,
+      "cost": 50,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "optionGroup": "Sabor",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "Azul",
+          "image": "",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "Vermelho",
+          "image": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "test-p2",
+      "name": "BATERIA TESTE",
+      "description": "Bateria de testes.",
+      "price": 60,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "",
+      "stock": 5,
+      "stockActive": true,
+      "cost": 30,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "optionGroup": "",
+      "options": []
+    }
+  ],
+  "users": [
+    {
+      "id": "u-admin",
+      "username": "admin",
+      "name": "Administrador",
+      "role": "admin",
+      "salt": "3bb36e12e65817bd4ed5b55c626ea6d9",
+      "hash": "ed8e5eab2dd3d76ffdcade08ce240ad96a5ccf9756832038227ea56d99549b08cbffd9da600c29b629ef79f1563bc6b1daf9b4afdee1971633fb1d70d01b1006",
+      "createdAt": "2026-09-03T17:19:00.000Z"
+    }
+  ],
+  "ledger": []
+}
