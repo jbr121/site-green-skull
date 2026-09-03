@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: gold-skull-store
+    env: node
+    branch: improvements/mobile-security-a11y-tests
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: BASIC_AUTH_USER
+        value: admin
+      - key: BASIC_AUTH_PASS
+        value: apresentacao2024
+      - key: SESSION_SECRET
+        generateValue: true
+    disk:
+      name: gold-skull-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
