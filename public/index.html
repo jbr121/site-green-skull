@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>GOLD SKULL — Catálogo</title>
+  <meta name="description" content="Catálogo online Gold Skull — produtos premium com entrega rápida e discreta." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231c1b18'/><text x='50' y='68' text-anchor='middle' font-size='52' font-weight='bold' fill='%23ffbe0e' font-family='Arial,sans-serif'>G</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Unbounded:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css?v=11" />
+</head>
+<body>
+  <div id="age-gate" class="age-gate hidden">
+    <div class="age-box">
+      <h2>Você tem 18 anos?</h2>
+      <p>Só entra quem é maior de idade.</p>
+      <div class="age-actions">
+        <button id="age-yes" class="btn btn-gold btn-big">SIM, TENHO 18+</button>
+        <a id="age-no" class="btn btn-ghost" href="https://www.google.com">Não tenho</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span class="brand-name" id="brand-name">GOLD SKULL</span>
+      </a>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="search" type="search" placeholder="Procurar..." autocomplete="off" />
+      </div>
+      <button class="cart-btn" id="cart-open" aria-label="Abrir pedido">
+        <span class="cart-btn-text">Pedido</span>
+        <span class="cart-count hidden" id="cart-count">0</span>
+      </button>
+    </div>
+    <nav class="categories" id="categories"></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img id="hero-banner" class="hero-banner" alt="Banner da loja" />
+      <div class="hero-overlay">
+        <h1 class="hero-title" id="store-name">GOLD SKULL</h1>
+        <p class="hero-tagline" id="store-tagline"></p>
+        <div class="hero-desc" id="store-desc"></div>
+      </div>
+    </section>
+
+    <section class="howto" id="howto">
+      <div class="howto-step"><b>1</b><span>Clique no produto</span></div>
+      <div class="howto-step"><b>2</b><span>Escolha o sabor e aperte Comprar</span></div>
+      <div class="howto-step"><b>3</b><span>Mande o pedido no WhatsApp</span></div>
+    </section>
+
+    <section class="info-strip info-strip-compact" id="info-strip">
+      <div class="info-item"><span>💳</span><p id="payment-note"></p></div>
+      <div class="info-item info-shipping-hint"><span>🛵</span><p>Frete por região — escolha no pedido</p></div>
+    </section>
+
+    <section class="grid-section">
+      <div class="section-head">
+        <h2 id="grid-title">Escolha um produto</h2>
+        <span class="result-count" id="result-count"></span>
+      </div>
+      <div class="grid" id="grid"></div>
+      <div class="empty hidden" id="empty">
+        <span>🔍</span>
+        <p>Nenhum produto encontrado.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <strong id="footer-name">GOLD SKULL</strong>
+      </div>
+      <p id="footer-address"></p>
+      <div class="footer-links">
+        <a id="footer-wa" target="_blank" rel="noopener" class="btn btn-gold">WhatsApp</a>
+        <a id="footer-ig" target="_blank" rel="noopener" class="btn btn-ghost">Instagram</a>
+      </div>
+      <p class="footer-legal">🔞 Produtos destinados exclusivamente a adultos. Todo o conteúdo deste catálogo é de responsabilidade da loja.</p>
+    </div>
+  </footer>
+
+  <a id="wa-float" class="wa-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 .8C7.6.8.8 7.6.8 16c0 2.7.7 5.3 2 7.6L.8 31.2l7.8-2c2.2 1.2 4.7 1.9 7.4 1.9 8.4 0 15.2-6.8 15.2-15.2S24.4.8 16 .8zm0 27.7c-2.3 0-4.6-.6-6.5-1.8l-.5-.3-4.6 1.2 1.2-4.5-.3-.5a12.4 12.4 0 0 1-1.9-6.6C3.4 9 9 3.4 16 3.4S28.6 9 28.6 16 23 28.5 16 28.5zm7-9.3c-.4-.2-2.3-1.1-2.6-1.2-.3-.1-.6-.2-.8.2-.2.4-.9 1.2-1.1 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3.1-1.9-1.1-1-1.9-2.3-2.1-2.7-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.7.2-.2.3-.4.4-.7.1-.3.1-.5 0-.7-.1-.2-.8-2-1.1-2.8-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.3 2.6 4 6.3 5.6.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.4-.3-.8-.5z"/></svg>
+  </a>
+
+  <div class="drawer-backdrop hidden" id="drawer-backdrop"></div>
+
+  <aside class="product-modal hidden" id="product-modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="Fechar">✕</button>
+    <div class="modal-body" id="modal-body"></div>
+  </aside>
+
+  <aside class="cart-drawer hidden" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Pedido">
+    <div class="cart-head">
+      <h3>Seu pedido</h3>
+      <button class="modal-close" id="cart-close" aria-label="Fechar">✕</button>
+    </div>
+    <p class="cart-summary hidden" id="cart-summary"></p>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty hidden" id="cart-empty">
+      <span>👆</span>
+      <p>Clique em um produto para começar.</p>
+    </div>
+    <div class="cart-foot" id="cart-foot">
+      <div class="checkout-wizard">
+        <div class="wizard-head">
+          <span class="wizard-step-label" id="wizard-step-label">Passo 1 de 3</span>
+          <div class="wizard-dots">
+            <span class="wizard-dot active" data-step="1"></span>
+            <span class="wizard-dot" data-step="2"></span>
+            <span class="wizard-dot" data-step="3"></span>
+          </div>
+        </div>
+        <div class="wizard-panel" id="wizard-step-1">
+          <p class="step-title">Sua cidade de entrega</p>
+          <p class="city-warn">Motoboy R$ 15 só na cidade de Itajaí ou Joinville. Balneário, Navegantes e outras = Outras cidades (R$ 50).</p>
+          <div id="shipping-choices"></div>
+          <label class="city-confirm" id="city-confirm-label">
+            <input type="checkbox" id="city-confirm" />
+            <span id="city-confirm-text">Confirmo que estou nessa cidade</span>
+          </label>
+          <div class="cart-totals cart-totals-compact">
+            <div class="cart-total"><span>Você paga</span><strong id="cart-total">R$ 0,00</strong></div>
+          </div>
+        </div>
+        <div class="wizard-panel hidden" id="wizard-step-2">
+          <p class="step-title">Quem é você?</p>
+          <div class="checkout-fields">
+            <label>Seu nome<input id="order-name" type="text" placeholder="Ex.: João" autocomplete="name" /></label>
+            <label>Seu WhatsApp<input id="order-phone" type="tel" placeholder="Ex.: 47 99999-0000" autocomplete="tel" /></label>
+            <label>Onde entregar<input id="order-address" type="text" placeholder="Bairro e cidade (ex.: Centro, Joinville)" autocomplete="street-address" /></label>
+          </div>
+        </div>
+        <div class="wizard-panel hidden" id="wizard-step-3">
+          <p class="step-title">Como vai pagar?</p>
+          <div class="choice-list" id="pay-choices"></div>
+          <label class="note-label">Quer falar mais alguma coisa? (opcional)
+            <textarea id="order-note" rows="2" placeholder="Pode deixar em branco"></textarea>
+          </label>
+          <div class="cart-totals">
+            <div><span>Produtos</span><strong id="cart-subtotal">R$ 0,00</strong></div>
+            <div><span>Entrega</span><strong id="cart-shipping">R$ 0,00</strong></div>
+            <div class="cart-total"><span>Total</span><strong id="cart-total-final">R$ 0,00</strong></div>
+          </div>
+          <div class="city-banner" id="city-banner">
+            <strong id="city-banner-title">Entrega</strong>
+            <small>Se não for essa cidade, aperte Voltar.</small>
+          </div>
+          <button class="btn btn-gold btn-big" id="checkout-btn">ENVIAR NO WHATSAPP</button>
+          <p class="cart-note" id="checkout-message">Não precisa de senha. Aperte o botão amarelo e depois ENVIAR no WhatsApp.</p>
+        </div>
+        <div class="wizard-nav">
+          <button type="button" class="btn btn-ghost btn-sm hidden" id="wizard-back">Voltar</button>
+          <button type="button" class="btn btn-gold btn-sm" id="wizard-next">Próximo</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="cart-bar hidden" id="cart-bar">
+    <button type="button" class="cart-bar-btn" id="cart-bar-open">
+      <span>Ver pedido</span>
+      <strong id="cart-bar-total">R$ 0,00</strong>
+    </button>
+  </div>
+
+  <div class="toast hidden" id="toast"></div>
+  <div class="toast toast-ask hidden" id="toast-ask">
+    <p id="toast-ask-msg"></p>
+    <div class="toast-ask-actions">
+      <button type="button" class="btn btn-gold btn-sm" id="toast-ask-yes">Sim</button>
+      <button type="button" class="btn btn-ghost btn-sm" id="toast-ask-no">Não</button>
+    </div>
+  </div>
+
+  <script src="/js/app.js?v=9"></script>
+</body>
+</html>

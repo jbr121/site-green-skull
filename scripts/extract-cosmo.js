@@ -1,0 +1,12 @@
+const fs = require("fs");
+const html = fs.readFileSync(process.env.TEMP + "/kyte-cosmo.html", "utf8");
+const u = html.replace(/\\"/g, '"');
+const id = "1777483403406-frUfv";
+const idx = u.indexOf(`"id":"${id}"`);
+const chunk = u.slice(idx, idx + 40000);
+const start = chunk.indexOf('"variations":[');
+const end = chunk.indexOf('],"variants":');
+const arrStr = chunk.slice(start + '"variations":'.length, end + 1);
+const groups = JSON.parse(arrStr);
+console.log(JSON.stringify(groups, null, 2).slice(0, 2000));
+console.log("options", groups[0].options.length, groups[0].name);

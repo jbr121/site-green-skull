@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6f4ee"/>
+      <stop offset="0.5" stop-color="#fff8e6"/>
+      <stop offset="1" stop-color="#f6f4ee"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffd45e"/>
+      <stop offset="1" stop-color="#c98f00"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="300" rx="24" fill="#ffffff" stroke="rgba(201,143,0,0.25)" stroke-width="2"/>
+  <circle cx="600" cy="155" r="52" fill="#1c1b18"/>
+  <text x="600" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="56" font-weight="bold" fill="#ffbe0e">G</text>
+  <text x="600" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="bold" fill="url(#gold)">GOLD SKULL</text>
+  <text x="600" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="600" fill="#6b6760" letter-spacing="0.2em">STRAIN SHOP</text>
+</svg>

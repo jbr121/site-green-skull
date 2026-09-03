@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Painel — GOLD SKULL</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231c1b18'/><text x='50' y='68' text-anchor='middle' font-size='52' font-weight='bold' fill='%23ffbe0e' font-family='Arial,sans-serif'>G</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Unbounded:wght@700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css?v=11" />
+  <link rel="stylesheet" href="/admin/admin.css?v=10" />
+</head>
+<body class="admin-body">
+
+  <!-- LOGIN -->
+  <div id="login-view" class="login-wrap hidden">
+    <form id="login-form" class="login-box">
+      <h1>GOLD SKULL</h1>
+      <p>Painel da loja</p>
+      <input type="text" id="login-username" placeholder="Usuário" autocomplete="username" required />
+      <input type="password" id="login-password" placeholder="Senha" autocomplete="current-password" required />
+      <button type="submit" class="btn btn-gold btn-big">Entrar</button>
+      <p class="login-error hidden" id="login-error"></p>
+    </form>
+  </div>
+
+  <!-- PANEL -->
+  <div id="panel" class="panel hidden">
+    <header class="admin-header">
+      <div class="admin-header-inner">
+        <span class="brand"><span class="brand-name">PAINEL</span></span>
+        <nav class="tabs">
+          <button class="tab active" data-tab="products">Produtos</button>
+          <button class="tab" data-tab="stock">Estoque</button>
+          <button class="tab" data-tab="profit">Lucro</button>
+          <button class="tab admin-only" data-tab="categories">Categorias</button>
+          <button class="tab admin-only" data-tab="settings">Loja</button>
+          <button class="tab admin-only" data-tab="users">Acessos</button>
+          <button class="tab editor-only" data-tab="account">Minha senha</button>
+        </nav>
+        <div class="admin-header-actions">
+          <span class="whoami" id="whoami"></span>
+          <a href="/" target="_blank" class="btn btn-gold btn-sm">Ver loja</a>
+          <button id="logout-btn" class="btn btn-ghost btn-sm">Sair</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- PRODUCTS TAB -->
+    <section id="tab-products" class="tab-panel">
+      <p class="hint">Dica: use nomes curtos no card (ex.: "POD THC 7ML COSMO"). Detalhes e quantidade vão na descrição.</p>
+      <div class="toolbar">
+        <input type="search" id="admin-search" placeholder="Buscar produto..." />
+        <select id="admin-cat-filter" class="toolbar-select">
+          <option value="">Todas categorias</option>
+        </select>
+        <button class="btn btn-gold" id="add-product-btn">+ Anunciar produto</button>
+      </div>
+      <div class="table-wrap desktop-only">
+        <table class="table" id="products-table">
+          <thead>
+            <tr><th></th><th>Produto</th><th>Categoria</th><th>Preço</th><th>Status</th><th></th></tr>
+          </thead>
+          <tbody id="products-tbody"></tbody>
+        </table>
+      </div>
+      <div id="product-cards" class="product-cards mobile-only"></div>
+      <button type="button" class="fab-add mobile-only" id="fab-add">+ Anunciar</button>
+    </section>
+
+    <!-- STOCK TAB -->
+    <section id="tab-stock" class="tab-panel hidden">
+      <p class="hint">No celular: busque o produto, aperte <b>Entrada</b> quando chegar mercadoria e <b>Vendi</b> quando sair. O lucro entra sozinho se o custo estiver preenchido.</p>
+      <div id="stock-alert" class="stock-alert hidden"></div>
+      <div class="toolbar">
+        <input type="search" id="stock-search" placeholder="Buscar no estoque..." />
+        <select id="stock-cat-filter" class="toolbar-select">
+          <option value="">Todas categorias</option>
+        </select>
+      </div>
+      <div id="stock-list" class="stock-list"></div>
+    </section>
+
+    <!-- PROFIT TAB -->
+    <section id="tab-profit" class="tab-panel hidden">
+      <div class="period-tabs" id="profit-period">
+        <button type="button" class="period-btn active" data-period="today">Hoje</button>
+        <button type="button" class="period-btn" data-period="week">7 dias</button>
+        <button type="button" class="period-btn" data-period="month">Mês</button>
+        <button type="button" class="period-btn" data-period="all">Tudo</button>
+      </div>
+      <div class="profit-cards" id="profit-cards"></div>
+      <h3 class="section-label">Movimentações</h3>
+      <div id="profit-list" class="profit-list"></div>
+    </section>
+
+    <!-- CATEGORIES TAB -->
+    <section id="tab-categories" class="tab-panel hidden">
+      <div class="toolbar">
+        <input type="text" id="new-category" placeholder="Nome da nova categoria" />
+        <button class="btn btn-gold" id="add-category-btn">+ Adicionar</button>
+      </div>
+      <p class="hint">As categorias aparecem como filtros no topo da loja. Ao anunciar um produto você também pode criar uma categoria nova.</p>
+      <div id="categories-list" class="cat-list"></div>
+    </section>
+
+    <!-- SETTINGS TAB (admin) -->
+    <section id="tab-settings" class="tab-panel hidden">
+      <form id="settings-form" class="settings-form">
+        <h3>Informações da loja</h3>
+        <label>Nome da loja<input id="s-name" /></label>
+        <label>Slogan<input id="s-tagline" /></label>
+        <label>Texto do topo (uma linha por frase)<textarea id="s-extra" rows="4"></textarea></label>
+        <div class="grid-2">
+          <label>WhatsApp (só números, com 55 e DDD)<input id="s-whatsapp" placeholder="5583920027847" /></label>
+          <label>Instagram (usuário)<input id="s-instagram" placeholder="@GOLDSKULL" /></label>
+        </div>
+        <label>Endereço / região<input id="s-address" /></label>
+        <label>Mensagem que o cliente vê após o pedido<textarea id="s-checkoutMessage" rows="2"></textarea></label>
+
+        <h3>Pagamento (uma opção por linha)</h3>
+        <textarea id="s-payments" rows="3" placeholder="Pix (solicite a chave no atendimento)&#10;Cartão via link de pagamento"></textarea>
+
+        <h3>Formas de entrega</h3>
+        <div id="shipping-list"></div>
+        <button type="button" class="btn btn-ghost btn-sm" id="add-shipping-btn">+ Adicionar entrega</button>
+
+        <h3>Banner do topo</h3>
+        <div class="banner-row">
+          <img id="s-banner-preview" class="banner-preview" alt="" />
+          <label class="btn btn-ghost btn-sm" style="width:fit-content">Trocar banner<input type="file" id="s-banner-file" accept="image/*" hidden /></label>
+        </div>
+
+        <button type="submit" class="btn btn-gold">Salvar alterações</button>
+      </form>
+    </section>
+
+    <!-- USERS TAB (admin) -->
+    <section id="tab-users" class="tab-panel hidden">
+      <form id="user-form" class="settings-form">
+        <h3>Criar acesso</h3>
+        <div class="grid-2">
+          <label>Nome<input id="u-name" placeholder="Nome da pessoa" required /></label>
+          <label>Usuário<input id="u-username" placeholder="usuario" required /></label>
+        </div>
+        <div class="grid-2">
+          <label>Senha<input id="u-password" type="password" placeholder="mínimo 4 caracteres" required /></label>
+          <label>Permissão
+            <select id="u-role">
+              <option value="editor">Editor (só produtos)</option>
+              <option value="admin">Administrador (tudo)</option>
+            </select>
+          </label>
+        </div>
+        <button type="submit" class="btn btn-gold" style="width:fit-content">Criar acesso</button>
+      </form>
+      <div class="settings-form">
+        <h3>Acessos ativos</h3>
+        <div id="users-list" class="cat-list"></div>
+      </div>
+      <form id="admin-password-form" class="settings-form">
+        <h3>Minha senha</h3>
+        <label>Nova senha<input type="password" id="apw-next" autocomplete="new-password" /></label>
+        <button type="submit" class="btn btn-ghost" style="width:fit-content">Trocar minha senha</button>
+      </form>
+    </section>
+
+    <!-- ACCOUNT TAB (editor) -->
+    <section id="tab-account" class="tab-panel hidden">
+      <form id="editor-password-form" class="settings-form">
+        <h3>Minha senha</h3>
+        <label>Nova senha<input type="password" id="epw-next" autocomplete="new-password" /></label>
+        <button type="submit" class="btn btn-ghost" style="width:fit-content">Trocar minha senha</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- PRODUCT MODAL -->
+  <div class="admin-modal-backdrop hidden" id="product-modal">
+    <form class="admin-modal" id="product-form">
+      <div class="admin-modal-head">
+        <h3 id="product-form-title">Anunciar produto</h3>
+        <button type="button" class="modal-close" id="product-close">✕</button>
+      </div>
+      <div class="admin-modal-body">
+        <div class="img-field">
+          <img id="p-image-preview" class="img-preview" alt="" />
+          <div class="img-field-actions">
+            <label class="btn btn-ghost btn-sm">Tirar ou escolher foto<input type="file" id="p-image-file" accept="image/*" hidden /></label>
+            <span class="img-or" id="p-image-hint">nenhuma foto selecionada</span>
+          </div>
+        </div>
+        <label>Nome do produto *<input id="p-name" required /></label>
+        <div class="grid-2">
+          <label>Preço (R$) *<input id="p-price" type="number" step="0.01" min="0" required /></label>
+          <label>Preço promocional (opcional)<input id="p-promoPrice" type="number" step="0.01" min="0" /></label>
+        </div>
+        <div class="grid-2">
+          <label>Custo (R$) — o que você pagou<input id="p-cost" type="number" step="0.01" min="0" placeholder="Ex.: 120" /></label>
+          <label>Estoque (vazio = sem controle)<input id="p-stock" type="number" min="0" step="1" placeholder="Ex.: 10" /></label>
+        </div>
+        <label>Categoria
+          <select id="p-category"></select>
+        </label>
+        <label class="hidden" id="p-newcat-wrap">Nome da nova categoria<input id="p-newcat" placeholder="Ex.: Novidades" /></label>
+        <label>Descrição<textarea id="p-description" rows="7" placeholder="Detalhes do produto..."></textarea></label>
+        <label>Nome do grupo de opções
+          <input id="p-optionGroup" placeholder="Ex.: SABOR COSMO — deixe vazio se não tiver sabores" />
+        </label>
+        <label>Opções (um sabor por linha)
+          <textarea id="p-options" rows="6" placeholder="THUNDERSTORM (sativa)&#10;COSMIC BERRY (indica)&#10;INCREDIBLE HULK (sativa)"></textarea>
+        </label>
+        <p class="hint">Quem compra escolhe uma dessas opções. Se o nome do sabor ficar igual, a foto atual é mantida.</p>
+        <label class="switch" style="align-self:end"><input type="checkbox" id="p-stockActive" /><span></span>Controlar estoque</label>
+        <div class="switch-row">
+          <label class="switch"><input type="checkbox" id="p-active" checked /><span></span>Visível na loja</label>
+          <label class="switch"><input type="checkbox" id="p-pin" /><span></span>Destaque</label>
+        </div>
+      </div>
+      <div class="admin-modal-foot">
+        <button type="button" class="btn btn-danger hidden" id="product-delete">Tirar</button>
+        <button type="submit" class="btn btn-gold" id="product-save">Salvar produto</button>
+      </div>
+    </form>
+  </div>
+
+  <nav class="admin-dock" id="admin-dock">
+    <button type="button" class="dock-btn active" data-tab="products">Produtos</button>
+    <button type="button" class="dock-btn" data-tab="stock">Estoque</button>
+    <button type="button" class="dock-btn" data-tab="profit">Lucro</button>
+    <button type="button" class="dock-btn" id="dock-more">Mais</button>
+  </nav>
+  <div class="more-sheet hidden" id="more-sheet">
+    <button type="button" class="more-item admin-only" data-tab="categories">Categorias</button>
+    <button type="button" class="more-item admin-only" data-tab="settings">Loja</button>
+    <button type="button" class="more-item admin-only" data-tab="users">Acessos</button>
+    <button type="button" class="more-item editor-only" data-tab="account">Minha senha</button>
+    <a class="more-item" href="/" target="_blank">Ver loja</a>
+    <button type="button" class="more-item" id="more-logout">Sair</button>
+  </div>
+
+  <div class="toast hidden" id="toast"></div>
+  <script src="/admin/admin.js?v=10"></script>
+</body>
+</html>

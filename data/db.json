@@ -1,0 +1,2363 @@
+{
+  "settings": {
+    "name": "GOLD SKULL",
+    "tagline": "Loja online de flavors THC",
+    "extra": "Produtos Premium · Delta-9 · Live Resin · Live Rosin · Liquid Diamond · Pods THC\nAtendimento para clientes exclusivos · Entrega rápida e discreta",
+    "whatsapp": "5583920027847",
+    "instagram": "GOLDSKULL",
+    "address": "Santa Catarina",
+    "themeColor": "#ffbe0e",
+    "banner": "/img/hero-default.svg",
+    "payments": [
+      "Pix (solicite a chave no atendimento)",
+      "Cartão via link de pagamento"
+    ],
+    "shipping": [
+      {
+        "name": "Itajaí",
+        "price": 15,
+        "description": "Motoboy — entrega rápida na cidade"
+      },
+      {
+        "name": "Joinville",
+        "price": 15,
+        "description": "Motoboy — entrega rápida na cidade"
+      },
+      {
+        "name": "Outras cidades",
+        "price": 50,
+        "description": "Transportadora — envio para todo o Brasil"
+      }
+    ],
+    "checkoutMessage": "Sem cadastro. O pedido abre no WhatsApp da loja para confirmar pagamento e entrega."
+  },
+  "categories": [
+    "Itajaí",
+    "Joinville",
+    "Atacado"
+  ],
+  "products": [
+    {
+      "id": "1778761086917-frUfv",
+      "name": "100UNID. GOMA THC EXTRA-FORTE 🥴  😵‍💫📍",
+      "description": "🍬 Runtz THC Gummies Premium\n\n🌿 Comestíveis premium infusionados com THC\n🍭 Sabor intenso e textura macia\n💎 Alta potência — 50mg por unidade\n📦 Pacote com 10 unidades\n⚡ Efeito prolongado e experiência potente\n🎯 Ideal para consumidores experientes\n\nInformações técnicas\n\nTipo: Edible / Gummies THC\nConteúdo: 10 unidades\nDosagem: 50mg por gummy\nPotência total: 500mg por pacote\nUso: Consumo oral\n\nComo consumir\n✅ Iniciar com 1/2 unidade (25mg) para avaliar tolerância\n✅ Aguarde 60–90 minutos antes de considerar nova dose\n✅ Consumir em ambiente confortável e com moderação\n\nDestaques\n✔ Alta potência\n✔ Longa duração\n✔ Premium infused gummies\n✔ Sabor intenso\n\n⚠ Produto de alta dosagem\n⚠ Recomendado para usuários com tolerância\n⚠ Efeitos podem demorar para iniciar e durar várias horas\n\n🔥 Extremamente chapante.",
+      "price": 2000,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778761086917-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T12:18:06.917Z",
+      "optionGroup": "",
+      "options": [],
+      "cost": null
+    },
+    {
+      "id": "1778761289313-frUfv",
+      "name": "10UNI. BATERIA UNIVERSAL PARA REFIL",
+      "description": "🔋 Cookies Battery 510 Premium\n\n⚡ Bateria premium para cartuchos/refis 510\n🌿 Compatível com a maioria dos carts padrão 510 thread\n💨 Aquecimento estável para melhor desempenho dos refis\n🔋 Bateria recarregável de alta autonomia\n🎛 Voltagem ajustável (quando aplicável)\n📦 Design discreto, portátil e elegante\n✨ Construção premium e ótima durabilidade\n🎯 Ideal para uso com carts premium\n\nInformações técnicas\n\nTipo: Bateria para refil / Vape Pen\nConexão: Universal 510 Thread\nBateria: Recarregável\nCarregamento: USB\nUso: Compatível com cartuchos rosqueáveis 510\nConteúdo: 1 bateria (não acompanha refil)\n\nDestaques\n✔ Compatível com carts 510\n✔ Voltagem ajustável\n✔ Recarregável\n✔ Design premium\n✔ Uso discreto e prático\n\n⚠ Não acompanha refil/cartucho\n⚠ Necessário cartucho 510 para utilização",
+      "price": 1000,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778761289313-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T12:21:29.313Z",
+      "optionGroup": "",
+      "options": []
+    },
+    {
+      "id": "1780574456881-frUfv",
+      "name": "10unid POD THC JEETER JUICE 1ML",
+      "description": "🔥 Jeeter Juice Live Resin 1000MG\n\n🌿 Live Resin Premium\n💎 Extração Full Spectrum\n⚡ 1000MG / 1 Grama\n🍋 Terpenos naturais de alta qualidade\n🎯 Sabor intenso e autêntico\n💨 Vapor suave e potente\n🔬 Lab Tested & Verified\n✅ Matéria-prima premium\n🌱 Perfil rico em canabinoides\n🏆 Qualidade superior Jeeter Juice\n\n📦 Capacidade: 1000MG (1G)\n🌿 Tipo: Live Resin\n⭐ Categoria: Premium Cartridge\n🔋 Pronto para uso\n💎 Experiência premium do início ao fim.",
+      "price": 1750,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1780574456881-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-06-04T12:00:56.881Z",
+      "optionGroup": "SABOR JEETER",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "COSMO (hibrida)",
+          "image": "/uploads/opt-1780673512250-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "SUPER SILVER HAZE (sativa",
+          "image": "/uploads/opt-1780673512250-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "PURPLE PESOS (sativa)",
+          "image": "/uploads/opt-1780673512250-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "SGV OG (hibrida)",
+          "image": "/uploads/opt-1780673512250-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "JACK HERER (sativa)",
+          "image": "/uploads/opt-1780673512250-frUfv-4.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1778761355685-frUfv",
+      "name": "10UNID. POD THC 2.5ML TORCH",
+      "description": "🔥 Torch Live Resin THC-A Disposable\n\n💎 Disposable premium com Live Resin THC-A\n🌿 Extração potente com perfil terpênico rico\n💨 Vapor suave e sabor intenso\n⚡ Dispositivo pronto para uso\n🔋 Bateria integrada recarregável\n📦 Hardware premium discreto e portátil\n✨ Excelente rendimento e consistência\n🎯 Experiência top shelf em formato disposable\n\nInformações técnicas\n\nTipo: Disposable premium\nExtração: Live Resin THC-A\nCapacidade: 2.5 Gramas\nBateria: Integrada recarregável\nUso: Ativação automática por puxada\nConteúdo: 1 dispositivo\n\nDestaques\n✔ 2.5G High Capacity\n✔ Live Resin Extract\n✔ Premium Hardware\n✔ Lab Tested\n✔ Smooth Vapor Experience\n\n⚠ Não necessita bateria externa\n⚠ Recarregável\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 2600,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778761355685-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T12:22:35.685Z",
+      "optionGroup": "SABOR POD TORCH 2.5ML",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GREEN CRACK *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "SOUR GORILLA *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "WATERMELON DIESEL *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "ANGEL CAKE *indica*",
+          "image": "/uploads/opt-1777550215658-frUfv-3.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1778761394170-frUfv",
+      "name": "10UNID. POD THC 2ML HIDDER HILLS",
+      "description": "🔥 Hidden Hills VVS Diamond Disposable\n\n💎 Dispositivo premium com blend VVS Liquid Diamond\n💨 Vapor suave e sabor intenso\n🧪 Extração refinada com perfil terpênico rico\n⚡ Ativação automática por puxada\n🔋 Bateria integrada recarregável\n📦 Design premium, discreto e portátil\n✨ Excelente autonomia e rendimento\n🎯 Experiência top shelf para quem busca alta qualidade\n\nInformações técnicas\n\nTipo: Disposable / descartável premium\nExtração: VVS Liquid Diamond Blend\nCapacidade: 2 Gramas\nBateria: Integrada recarregável\nUso: Pronto para uso imediato\nConteúdo: 1 dispositivo\n\nDestaques\n✔ Liquid Diamond Extract\n✔ High Potency Blend\n✔ Recarregável\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Não necessita bateria externa\n⚠ Recarregável via carregamento compatível\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 2600,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778761394170-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T12:23:14.170Z",
+      "optionGroup": "SABOR POD HIDDER HILLS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "RASPBERRY NERDZ🧬hibrida🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PURPLATO ZYRUP🧬indica🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "LIMEY KNOW CONE🧬sativa🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "GRAPEFRUIT ZUAVA GOO 🧬sativa🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "LEMON CHERRY 🧬SATIVA🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "WHITE GUMMY🧬hibrida🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-5.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1778761428739-frUfv",
+      "name": "10UNID. POD THC 2ML MUHAMEDS",
+      "description": "🔥 Muhameds 2ML Premium Live Resin\n\n🌿 Extração premium Live Resin\n💨 Vapor suave com sabor intenso\n🧪 Perfil terpênico rico e experiência top shelf\n⚡ Dispositivo descartável pronto para uso\n🔋 Bateria integrada\n📦 Design discreto, portátil e premium\n✨ Excelente rendimento e alta potência\n🎯 Ideal para quem busca qualidade e praticidade\n\nInformações técnicas\n\nTipo: Disposable premium\nExtração: Live Resin\nCapacidade: 2ML\nBateria: Integrada\nUso: Ativação automática por puxada\nConteúdo: 1 dispositivo\n\nDestaques\n✔ Premium Live Resin\n✔ Rich Flavor Experience\n✔ Smooth & Potent\n✔ Lab Tested\n✔ Top Shelf Quality\n\n⚠ Não requer bateria externa\n⚠ Pronto para uso imediato\n⚠ Sabores/variantes disponíveis no anúncio\n\n🔥 Linha Exotic Premium Disposable. Muito forte pro catálogo.",
+      "price": 2600,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778761428739-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T12:23:48.739Z",
+      "optionGroup": "",
+      "options": []
+    },
+    {
+      "id": "1778761490189-frUfv",
+      "name": "10UNID. POD THC 5.5ML DELTA KING",
+      "description": "🔥 Delta King Blaze THC-A Premium Disposable\n\n🌿 Blend premium com Live Rosin\n💨 Vapor suave com sabor intenso\n🧪 Extração potente com perfil terpênico rico\n⚡ Dispositivo descartável pronto para uso\n🔋 Bateria integrada\n📦 Design premium, discreto e portátil\n✨ Alto rendimento e potência elevada\n🎯 Ideal para quem busca experiência top shelf\n\nInformações técnicas\n\nTipo: Disposable premium\nExtração: Live Rosin Blend\nCapacidade: 5.5 Gramas\nBateria: Integrada\nUso: Ativação automática por puxada\nConteúdo: 1 dispositivo\n\nDestaques\n✔ Premium Live Rosin\n✔ 5.5 Grams Disposable\n✔ Smooth Experience\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Não requer bateria externa\n⚠ Pronto para uso imediato\n⚠ Sabores/variantes disponíveis no anúncio\n\n🔥 Linha Exotic Reserve Disposable.",
+      "price": 2900,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778761490189-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T12:24:50.189Z",
+      "optionGroup": "SABOR DELTA KING",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "STRAWBERRY RUNTZ (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "WHITE WIDOW (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "BLUEBERRY OG (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "SKITTLEZ (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "OG KUSH (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "GUSHERS RUNTZ (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "GRAND DADDY (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-6.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-7",
+          "title": "WHITE RUNTZ (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-7.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1778761683473-frUfv",
+      "name": "10UNID. POD THC 7ML COSMO",
+      "description": "🔥 COSMO THC Premium Disposable\n\n🌌 Dispositivo descartável premium\n💨 Vapor suave com sabor intenso\n🧪 Óleo de alta qualidade com perfil terpênico rico\n⚡ Ativação automática (sem botão)\n🔋 Bateria integrada — pronto para uso\n📦 Design moderno, discreto e portátil\n✨ Excelente autonomia e rendimento\n🎯 Ideal para quem busca praticidade + experiência premium\n\nInformações técnicas\nTipo: Dispositivo descartável (Disposable)\nAtivação: Automática por puxada\nBateria: Integrada (não recarregável)\nUso: Pronto para uso imediato\nConteúdo: 1 dispositivo\n\n⚠ Observações\n\nNão necessita bateria externa\nNão recarregável\nSabores/variantes disponíveis no anúncio",
+      "price": 4000,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778761683473-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T12:28:03.473Z",
+      "optionGroup": "SABOR COSMO",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "THUNDERSTORM (sativa)",
+          "image": "/uploads/opt-1777483403406-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "COSMIC BERRY (indica)",
+          "image": "/uploads/opt-1777483403406-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "INCREDIBLE HULK (sativa)",
+          "image": "/uploads/opt-1777483403406-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "COOKIES AND CREAM (hibrida)",
+          "image": "/uploads/opt-1777483403406-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "HELL FIRE (indica)",
+          "image": "/uploads/opt-1777483403406-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "STARMELON (hibrida)",
+          "image": "/uploads/opt-1777483403406-frUfv-5.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1778764094429-frUfv",
+      "name": "10UNID. REFIL THC 1ML FRIEDLY FARMS",
+      "description": "🔥 Friendly Farms Premium Live Resin Cartridge\n\n🌿 Cartucho premium com extração de alta qualidade\n💨 Vapor suave, sabor intenso e perfil terpênico rico\n🧪 Live Resin para experiência mais completa e autêntica\n🔋 Compatível com baterias padrão 510 thread (bateria não inclusa)\n⚡ Rosqueou, usou — simples e discreto\n📦 Cartucho portátil e acabamento premium\n✨ Excelente rendimento e consistência\n🎯 Ideal para quem busca qualidade superior em extrações premium\n\nInformações técnicas\n\nTipo: Cartucho / Refil premium\nExtração: Live Resin\nConexão: Universal 510\nUso: Requer bateria compatível para funcionamento\nConteúdo: 1 cartucho/refil (não acompanha bateria)\n\nImportante\n⚠ Necessário bateria 510 para uso\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 1650,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778764094429-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-14T13:08:14.429Z",
+      "optionGroup": "SABOR FRIEDLY FARMS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "PASSION SMOOTHIE (hibrida)",
+          "image": "/uploads/opt-1777557357835-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PINEAPPLE PASSION (sativa)",
+          "image": "/uploads/opt-1777557357835-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "MELON BRAINZ (hibrida)",
+          "image": "/uploads/opt-1777557357835-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "GRAPE LOLLI (indica)",
+          "image": "/uploads/opt-1777557357835-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "Z3 (sativa)",
+          "image": "/uploads/opt-1777557357835-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "BLOOBERRY (hibrida)",
+          "image": "/uploads/opt-1777557357835-frUfv-5.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1787583321918-frUfv",
+      "name": "10unid. REFIL THC 1ML WAVY",
+      "description": "🔥 WAVY 510 CARTRIDGE – DELTA 8 + THCP | 1G / 1ML\n\nUma opção premium em cartucho 510, combinando Delta 8 + THCP em 1 grama / 1 ml de óleo. O sistema conta com fluxo de ar regulável, permitindo escolher entre uma puxada mais aberta e suave ou mais fechada e concentrada.\n\n✨ DESTAQUES\n\n💎 Delta 8 + THCP\n💧 1G / 1ML\n🔩 Conexão universal 510 Thread\n🌬️ Fluxo de ar regulável\n🔥 Compatível com baterias com pré-aquecimento\n⚡ Pode ser utilizado em baterias com voltagem regulável\n🌿 Disponível em diferentes strains/variedades\n📦 Cartucho protegido em embalagem individual\n🔋 BATERIAS COMPATÍVEIS\n\nCompatível com praticamente qualquer bateria padrão 510 Thread, incluindo:\n\n🔋 Baterias tipo caneta 510\n🔋 Baterias 510 com botão\n🔋 Baterias 510 automáticas\n⚡ Baterias com voltagem regulável\n🔥 Baterias com função Preheat / Pré-aquecimento\n\nBateria 510 vendida separadamente.\n\n⚡ VOLTAGEM RECOMENDADA\n\nPara preservar o sabor e evitar aquecimento excessivo do óleo:\n\nComece entre 2.4V e 2.8V.\n\nCaso prefira maior produção de vapor, aumente gradualmente.\n\n⚠️ Evite utilizar voltagem excessivamente alta, pois isso pode superaquecer o óleo, alterar o sabor e reduzir a vida útil da resistência.\n\n🔥 COMO USAR O PRÉ-AQUECIMENTO\n\nSe sua bateria possuir função PREHEAT, ela pode ajudar principalmente quando o óleo estiver mais viscoso ou após algum tempo sem utilização.\n\nRosqueie o cartucho suavemente na bateria 510.\nAtive o modo Preheat conforme as instruções da sua bateria.\nAguarde o ciclo de aquecimento finalizar.\nFaça puxadas leves e progressivas.\n\n💡 Em muitas baterias 510, o pré-aquecimento é ativado com cliques rápidos no botão, mas o comando pode variar conforme o modelo.\n\n🌬️ FLUXO DE AR REGULÁVEL\n\nO WAVY possui controle de airflow, permitindo personalizar a puxada:\n\n🌬️ Mais aberto: puxada mais leve e maior passagem de ar.\n\n🔥 Mais fechado: puxada mais restrita e concentrada, semelhante à experiência de alguns pods descartáveis.\n\nAjuste aos poucos até encontrar a configuração que preferir.\n\n🛡️ CUIDADOS IMPORTANTES\n☀️ Evite exposição direta ao sol.\n🚗 Não deixe dentro de veículos quentes.\n🌡️ Armazene em ambiente fresco e seco.\n⬆️ Sempre que possível, mantenha o cartucho na posição vertical.\n🔩 Não aperte excessivamente ao rosquear na bateria.\n🔥 Evite várias puxadas longas consecutivas para não superaquecer a resistência.\n🧼 Mantenha a conexão 510 limpa e seca.\n👶 Mantenha longe do alcance de crianças e animais.\n\n💎 WAVY 510 — tecnologia, praticidade e controle de airflow em um cartucho premium.\n\n🔞 Produto destinado exclusivamente a adultos, observando a legislação aplicável na sua região.",
+      "price": 1400,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1787583321918-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-08-24T14:55:21.918Z",
+      "optionGroup": "SABOR REFIL WAVY",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GREEN CRACK (sativa)",
+          "image": "/uploads/opt-1787583104731-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "SOUR DIESEL (sativa)",
+          "image": "/uploads/opt-1787583104731-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "KING LOUIS (indica)",
+          "image": "/uploads/opt-1787583104731-frUfv-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1780221999616-frUfv",
+      "name": "10UNID. REFIL THC 2ML HALFBAKED",
+      "description": "",
+      "price": 2600,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1780221999616-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-31T10:06:39.615Z",
+      "optionGroup": "",
+      "options": []
+    },
+    {
+      "id": "1780224518006-frUfv",
+      "name": "10UNID. REFIL THC 3.5ML TORCH",
+      "description": "🔥 Torch Live Resin Diamonds THC-A Cartridge\n\n💎 Cartucho premium com Live Resin Diamonds\n🌿 Extração de alta potência com perfil terpênico rico\n💨 Vapor suave e sabor intenso\n🔬 Formulação premium para experiência top shelf\n⚡ Cartucho padrão 510 thread\n📦 Construção premium e alto rendimento\n✨ Hardware de qualidade e fluxo consistente\n🎯 Ideal para uso com baterias 510\n\nInformações técnicas\n\nTipo: Cartucho premium 510\nExtração: Live Resin Diamonds\nCapacidade: 3.5 Gramas\nConexão: Universal 510 Thread\nCompatibilidade: Requer bateria 510\nConteúdo: 1 cartucho (sabores/variantes separados no anúncio)\n\nDestaques\n✔ 3.5G High Capacity\n✔ Live Resin Diamonds\n✔ Flavor Rich Terpenes\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Necessita bateria 510 (vendida separadamente)\n⚠ Produto em cartucho rosqueável, não descartável",
+      "price": 2600,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1780224518006-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-31T10:48:38.006Z",
+      "optionGroup": "SABOR REFIL TORCH",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "SPACE RUNTZ  *hibrida*",
+          "image": "/uploads/opt-1777489750393-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "WATERMELON HASHPLANT *sativa*",
+          "image": "/uploads/opt-1777489750393-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "GRAPE STOMPER *sativa*",
+          "image": "/uploads/opt-1777489750393-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "OREOZ *indica*",
+          "image": "/uploads/opt-1777489750393-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "RASPBERRY LEMONADE *sativa*",
+          "image": "/uploads/opt-1777489750393-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "BOSS CAKE (indica)",
+          "image": "/uploads/opt-1777489750393-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "DREAM QUEEN (sativa)",
+          "image": "/uploads/opt-1777489750393-frUfv-6.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-7",
+          "title": "ALIEN OG (indica)",
+          "image": "/uploads/opt-1777489750393-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "JET FUEL (sativa)",
+          "image": "/uploads/opt-1777489750393-frUfv-8.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-9",
+          "title": "WHITE TRUFFLE (indica)",
+          "image": "/uploads/opt-1777489750393-frUfv-9.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-10",
+          "title": "LEMON CHERRY GELA(hibrid)",
+          "image": "/uploads/opt-1777489750393-frUfv-10.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777545932912-frUfv",
+      "name": "BATERIA PARA REFIL AIRIS MYSTICA II",
+      "description": "🔋 Airis Mystica Premium Battery\n\n⚡ Bateria premium para cartuchos/refis 510\n🌿 Compatível com a maioria dos carts padrão 510 thread\n🎛 Controle de voltagem ajustável para personalizar a sessão\n💨 Melhor aquecimento e desempenho dos refis\n🔋 Bateria recarregável de alta autonomia\n📦 Design discreto, compacto e premium\n✨ Tecnologia confiável e acabamento sofisticado\n🎯 Ideal para uso com cartuchos premium\n\nInformações técnicas\n\nTipo: Bateria para cartuchos/refis\nModelo: Airis Mystica\nConexão: Universal 510 Thread\nVoltagem: Ajustável\nCarregamento: USB\nBateria: Recarregável\nConteúdo: 1 bateria (não acompanha refil)\n\nDestaques\n✔ Compatível com carts 510\n✔ Voltagem ajustável\n✔ Aquecimento estável\n✔ Design discreto\n✔ Premium hardware\n\n⚠ Não acompanha cartucho/refil\n⚠ Necessário cartucho 510 para uso",
+      "price": 230,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777545932912-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T10:45:32.912Z",
+      "optionGroup": "COR BATERIA AIRIS MYSTICA",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "AZUL",
+          "image": "/uploads/opt-1777545932912-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "VERMELHO",
+          "image": "/uploads/opt-1777545932912-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "BRONZE",
+          "image": "/uploads/opt-1777545932912-frUfv-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777488695454-frUfv",
+      "name": "BATERIA PARA REFIL AIRIS MYSTICA II",
+      "description": "🔋 Airis Mystica Premium Battery\n\n⚡ Bateria premium para cartuchos/refis 510\n🌿 Compatível com a maioria dos carts padrão 510 thread\n🎛 Controle de voltagem ajustável para personalizar a sessão\n💨 Melhor aquecimento e desempenho dos refis\n🔋 Bateria recarregável de alta autonomia\n📦 Design discreto, compacto e premium\n✨ Tecnologia confiável e acabamento sofisticado\n🎯 Ideal para uso com cartuchos premium\n\nInformações técnicas\n\nTipo: Bateria para cartuchos/refis\nModelo: Airis Mystica\nConexão: Universal 510 Thread\nVoltagem: Ajustável\nCarregamento: USB\nBateria: Recarregável\nConteúdo: 1 bateria (não acompanha refil)\n\nDestaques\n✔ Compatível com carts 510\n✔ Voltagem ajustável\n✔ Aquecimento estável\n✔ Design discreto\n✔ Premium hardware\n\n⚠ Não acompanha cartucho/refil\n⚠ Necessário cartucho 510 para uso",
+      "price": 230,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777488695454-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T18:51:35.454Z",
+      "optionGroup": "COR BATERIA AIRIS MYSTICA",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "AZUL",
+          "image": "/uploads/opt-1777488695454-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "VERMELHO",
+          "image": "/uploads/opt-1777488695454-frUfv-1.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777545908312-frUfv",
+      "name": "BATERIA UNIVERSAL PARA REFIL - COOKIES ROSCA 510",
+      "description": "🔋 Cookies Battery 510 Premium\n\n⚡ Bateria premium para cartuchos/refis 510\n🌿 Compatível com a maioria dos carts padrão 510 thread\n💨 Aquecimento estável para melhor desempenho dos refis\n🔋 Bateria recarregável de alta autonomia\n🎛 Voltagem ajustável (quando aplicável)\n📦 Design discreto, portátil e elegante\n✨ Construção premium e ótima durabilidade\n🎯 Ideal para uso com carts premium\n\nInformações técnicas\n\nTipo: Bateria para refil / Vape Pen\nConexão: Universal 510 Thread\nBateria: Recarregável\nCarregamento: USB\nUso: Compatível com cartuchos rosqueáveis 510\nConteúdo: 1 bateria (não acompanha refil)\n\nDestaques\n✔ Compatível com carts 510\n✔ Voltagem ajustável\n✔ Recarregável\n✔ Design premium\n✔ Uso discreto e prático\n\n⚠ Não acompanha refil/cartucho\n⚠ Necessário cartucho 510 para utilização",
+      "price": 160,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777545908312-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T10:45:08.312Z",
+      "optionGroup": "COR BATERIA COOKIES",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "PRETA",
+          "image": "/uploads/opt-1777545908312-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "AZUL",
+          "image": "/uploads/opt-1777545908312-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "BRANCA",
+          "image": "/uploads/opt-1777545908312-frUfv-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777488271083-frUfv",
+      "name": "BATERIA UNIVERSAL PARA REFIL - COOKIES ROSCA 510",
+      "description": "🔋 Cookies Battery 510 Premium\n\n⚡ Bateria premium para cartuchos/refis 510\n🌿 Compatível com a maioria dos carts padrão 510 thread\n💨 Aquecimento estável para melhor desempenho dos refis\n🔋 Bateria recarregável de alta autonomia\n🎛 Voltagem ajustável (quando aplicável)\n📦 Design discreto, portátil e elegante\n✨ Construção premium e ótima durabilidade\n🎯 Ideal para uso com carts premium\n\nInformações técnicas\n\nTipo: Bateria para refil / Vape Pen\nConexão: Universal 510 Thread\nBateria: Recarregável\nCarregamento: USB\nUso: Compatível com cartuchos rosqueáveis 510\nConteúdo: 1 bateria (não acompanha refil)\n\nDestaques\n✔ Compatível com carts 510\n✔ Voltagem ajustável\n✔ Recarregável\n✔ Design premium\n✔ Uso discreto e prático\n\n⚠ Não acompanha refil/cartucho\n⚠ Necessário cartucho 510 para utilização",
+      "price": 160,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777488271083-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T18:44:31.083Z",
+      "optionGroup": "COR BATERIA COOKIES",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "PRETA",
+          "image": "",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "BRANCA",
+          "image": "/uploads/opt-1777488271083-frUfv-1.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777486587616-frUfv",
+      "name": "Pack 10 unid. GOMA THC EXTRA-FORTE 🥴  😵‍💫📍",
+      "description": "🍬 Runtz THC Gummies Premium\n\n🌿 Comestíveis premium infusionados com THC\n🍭 Sabor intenso e textura macia\n💎 Alta potência — 50mg por unidade\n📦 Pacote com 10 unidades\n⚡ Efeito prolongado e experiência potente\n🎯 Ideal para consumidores experientes\n\nInformações técnicas\n\nTipo: Edible / Gummies THC\nConteúdo: 10 unidades\nDosagem: 50mg por gummy\nPotência total: 500mg por pacote\nUso: Consumo oral\n\nComo consumir\n✅ Iniciar com 1/2 unidade (25mg) para avaliar tolerância\n✅ Aguarde 60–90 minutos antes de considerar nova dose\n✅ Consumir em ambiente confortável e com moderação\n\nDestaques\n✔ Alta potência\n✔ Longa duração\n✔ Premium infused gummies\n✔ Sabor intenso\n\n⚠ Produto de alta dosagem\n⚠ Recomendado para usuários com tolerância\n⚠ Efeitos podem demorar para iniciar e durar várias horas\n\n🔥 Extremamente chapante.",
+      "price": 300,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777486587616-frUfv.jpg",
+      "stock": 17,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T18:16:27.616Z",
+      "optionGroup": "",
+      "options": []
+    },
+    {
+      "id": "1777557068756-frUfv",
+      "name": "Pack 10 unid. GOMA THC EXTRA-FORTE 🥴😵‍💫📍",
+      "description": "🍬 Runtz THC Gummies Premium\n\n🌿 Comestíveis premium infusionados com THC\n🍭 Sabor intenso e textura macia\n💎 Alta potência — 50mg por unidade\n📦 Pacote com 10 unidades\n⚡ Efeito prolongado e experiência potente\n🎯 Ideal para consumidores experientes\n\nInformações técnicas\n\nTipo: Edible / Gummies THC\nConteúdo: 10 unidades\nDosagem: 50mg por gummy\nPotência total: 500mg por pacote\nUso: Consumo oral\n\nComo consumir\n✅ Iniciar com 1/2 unidade (25mg) para avaliar tolerância\n✅ Aguarde 60–90 minutos antes de considerar nova dose\n✅ Consumir em ambiente confortável e com moderação\n\nDestaques\n✔ Alta potência\n✔ Longa duração\n✔ Premium infused gummies\n✔ Sabor intenso\n\n⚠ Produto de alta dosagem\n⚠ Recomendado para usuários com tolerância\n⚠ Efeitos podem demorar para iniciar e durar várias horas\n\n🔥 Extremamente chapante.",
+      "price": 300,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777557068756-frUfv.jpg",
+      "stock": 9,
+      "stockActive": true,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T13:51:08.756Z",
+      "optionGroup": "",
+      "options": []
+    },
+    {
+      "id": "1777550215658-frUfv",
+      "name": "POD THC 2.5ML TORCH",
+      "description": "🔥 Torch Live Resin THC-A Disposable\n\n💎 Disposable premium com Live Resin THC-A\n🌿 Extração potente com perfil terpênico rico\n💨 Vapor suave e sabor intenso\n⚡ Dispositivo pronto para uso\n🔋 Bateria integrada recarregável\n📦 Hardware premium discreto e portátil\n✨ Excelente rendimento e consistência\n🎯 Experiência top shelf em formato disposable\n\nInformações técnicas\n\nTipo: Disposable premium\nExtração: Live Resin THC-A\nCapacidade: 2.5 Gramas\nBateria: Integrada recarregável\nUso: Ativação automática por puxada\nConteúdo: 1 dispositivo\n\nDestaques\n✔ 2.5G High Capacity\n✔ Live Resin Extract\n✔ Premium Hardware\n✔ Lab Tested\n✔ Smooth Vapor Experience\n\n⚠ Não necessita bateria externa\n⚠ Recarregável\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 450,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777550215658-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T11:56:55.658Z",
+      "optionGroup": "SABOR POD TORCH 2.5ML",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GREEN CRACK *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "SOUR GORILLA *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "WATERMELON DIESEL *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "ANGEL CAKE *indica*",
+          "image": "/uploads/opt-1777550215658-frUfv-3.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777490232056-frUfv",
+      "name": "POD THC 2.5ML TORCH",
+      "description": "🔥 Torch Live Resin THC-A Disposable\n\n💎 Disposable premium com Live Resin THC-A\n🌿 Extração potente com perfil terpênico rico\n💨 Vapor suave e sabor intenso\n⚡ Dispositivo pronto para uso\n🔋 Bateria integrada recarregável\n📦 Hardware premium discreto e portátil\n✨ Excelente rendimento e consistência\n🎯 Experiência top shelf em formato disposable\n\nInformações técnicas\n\nTipo: Disposable premium\nExtração: Live Resin THC-A\nCapacidade: 2.5 Gramas\nBateria: Integrada recarregável\nUso: Ativação automática por puxada\nConteúdo: 1 dispositivo\n\nDestaques\n✔ 2.5G High Capacity\n✔ Live Resin Extract\n✔ Premium Hardware\n✔ Lab Tested\n✔ Smooth Vapor Experience\n\n⚠ Não necessita bateria externa\n⚠ Recarregável\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 450,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777490232056-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T19:17:12.056Z",
+      "optionGroup": "SABOR POD TORCH 2.5ML",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GREEN CRACK *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "SOUR GORILLA *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "WATERMELON DIESEL *sativa*",
+          "image": "/uploads/opt-1777550215658-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "ANGEL CAKE *indica*",
+          "image": "/uploads/opt-1777550215658-frUfv-3.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777554122356-frUfv",
+      "name": "POD THC 2ML HIDDER HILLS",
+      "description": "🔥 Hidden Hills VVS Diamond Disposable\n\n💎 Dispositivo premium com blend VVS Liquid Diamond\n💨 Vapor suave e sabor intenso\n🧪 Extração refinada com perfil terpênico rico\n⚡ Ativação automática por puxada\n🔋 Bateria integrada recarregável\n📦 Design premium, discreto e portátil\n✨ Excelente autonomia e rendimento\n🎯 Experiência top shelf para quem busca alta qualidade\n\nInformações técnicas\n\nTipo: Disposable / descartável premium\nExtração: VVS Liquid Diamond Blend\nCapacidade: 2 Gramas\nBateria: Integrada recarregável\nUso: Pronto para uso imediato\nConteúdo: 1 dispositivo\n\nDestaques\n✔ Liquid Diamond Extract\n✔ High Potency Blend\n✔ Recarregável\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Não necessita bateria externa\n⚠ Recarregável via carregamento compatível\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 460,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777554122356-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T13:02:02.356Z",
+      "optionGroup": "SABOR POD HIDDER HILLS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "RASPBERRY NERDZ🧬hibrida🧬",
+          "image": "/uploads/opt-1777554122356-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PURPLATO ZYRUP🧬indica🧬",
+          "image": "/uploads/opt-1777554122356-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "GRAPEFRUIT ZUAVA GOO 🧬sativa🧬",
+          "image": "/uploads/opt-1777554122356-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "WHITE GUMMY🧬hibrida🧬",
+          "image": "/uploads/opt-1777554122356-frUfv-3.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777485077671-frUfv",
+      "name": "POD THC 2ML HIDDER HILLS",
+      "description": "🔥 Hidden Hills VVS Diamond Disposable\n\n💎 Dispositivo premium com blend VVS Liquid Diamond\n💨 Vapor suave e sabor intenso\n🧪 Extração refinada com perfil terpênico rico\n⚡ Ativação automática por puxada\n🔋 Bateria integrada recarregável\n📦 Design premium, discreto e portátil\n✨ Excelente autonomia e rendimento\n🎯 Experiência top shelf para quem busca alta qualidade\n\nInformações técnicas\n\nTipo: Disposable / descartável premium\nExtração: VVS Liquid Diamond Blend\nCapacidade: 2 Gramas\nBateria: Integrada recarregável\nUso: Pronto para uso imediato\nConteúdo: 1 dispositivo\n\nDestaques\n✔ Liquid Diamond Extract\n✔ High Potency Blend\n✔ Recarregável\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Não necessita bateria externa\n⚠ Recarregável via carregamento compatível\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 460,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777485077671-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T17:51:17.671Z",
+      "optionGroup": "SABOR POD HIDDER HILLS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "RASPBERRY NERDZ🧬hibrida🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PURPLATO ZYRUP🧬indica🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "LIMEY KNOW CONE🧬sativa🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "GRAPEFRUIT ZUAVA GOO 🧬sativa🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "LEMON CHERRY 🧬SATIVA🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "WHITE GUMMY🧬hibrida🧬",
+          "image": "/uploads/opt-1777485077671-frUfv-5.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777548045206-frUfv",
+      "name": "POD THC 5.5ML DELTA KING",
+      "description": "🔥 Delta King Blaze THC-A Premium Disposable\n\n🌿 Blend premium com Live Rosin\n💨 Vapor suave com sabor intenso\n🧪 Extração potente com perfil terpênico rico\n⚡ Dispositivo descartável pronto para uso\n🔋 Bateria integrada\n📦 Design premium, discreto e portátil\n✨ Alto rendimento e potência elevada\n🎯 Ideal para quem busca experiência top shelf\n\nInformações técnicas\n\nTipo: Disposable premium\nExtração: Live Rosin Blend\nCapacidade: 5.5 Gramas\nBateria: Integrada\nUso: Ativação automática por puxada\nConteúdo: 1 dispositivo\n\nDestaques\n✔ Premium Live Rosin\n✔ 5.5 Grams Disposable\n✔ Smooth Experience\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Não requer bateria externa\n⚠ Pronto para uso imediato\n⚠ Sabores/variantes disponíveis no anúncio\n\n🔥 Linha Exotic Reserve Disposable.",
+      "price": 540,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777548045206-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T11:20:45.206Z",
+      "optionGroup": "SABOR DELTA KING",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "STRAWBERRY RUNTZ (indica)",
+          "image": "/uploads/opt-1777548045206-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "WHITE WIDOW (hibrida)",
+          "image": "/uploads/opt-1777548045206-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "BLUEBERRY OG (hibrida)",
+          "image": "/uploads/opt-1777548045206-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "SKITTLEZ (indica)",
+          "image": "/uploads/opt-1777548045206-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "OG KUSH (indica)",
+          "image": "/uploads/opt-1777548045206-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "WHITE RUNTZ (hibrida)",
+          "image": "/uploads/opt-1777548045206-frUfv-5.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777487563251-frUfv",
+      "name": "POD THC 5.5ML DELTA KING",
+      "description": "🔥 Delta King Blaze THC-A Premium Disposable\n\n🌿 Blend premium com Live Rosin\n💨 Vapor suave com sabor intenso\n🧪 Extração potente com perfil terpênico rico\n⚡ Dispositivo descartável pronto para uso\n🔋 Bateria integrada\n📦 Design premium, discreto e portátil\n✨ Alto rendimento e potência elevada\n🎯 Ideal para quem busca experiência top shelf\n\nInformações técnicas\n\nTipo: Disposable premium\nExtração: Live Rosin Blend\nCapacidade: 5.5 Gramas\nBateria: Integrada\nUso: Ativação automática por puxada\nConteúdo: 1 dispositivo\n\nDestaques\n✔ Premium Live Rosin\n✔ 5.5 Grams Disposable\n✔ Smooth Experience\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Não requer bateria externa\n⚠ Pronto para uso imediato\n⚠ Sabores/variantes disponíveis no anúncio\n\n🔥 Linha Exotic Reserve Disposable.",
+      "price": 540,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777487563251-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T18:32:43.251Z",
+      "optionGroup": "SABOR DELTA KING",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "STRAWBERRY RUNTZ (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "WHITE WIDOW (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "BLUEBERRY OG (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "SKITTLEZ (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "OG KUSH (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "GUSHERS RUNTZ (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "GRAND DADDY (indica)",
+          "image": "/uploads/opt-1777487563251-frUfv-6.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-7",
+          "title": "WHITE RUNTZ (hibrida)",
+          "image": "/uploads/opt-1777487563251-frUfv-7.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777547348534-frUfv",
+      "name": "POD THC 7ML COSMO",
+      "description": "🔥 COSMO THC Premium Disposable\n\n🌌 Dispositivo descartável premium\n💨 Vapor suave com sabor intenso\n🧪 Óleo de alta qualidade com perfil terpênico rico\n⚡ Ativação automática (sem botão)\n🔋 Bateria integrada — pronto para uso\n📦 Design moderno, discreto e portátil\n✨ Excelente autonomia e rendimento\n🎯 Ideal para quem busca praticidade + experiência premium\n\nInformações técnicas\nTipo: Dispositivo descartável (Disposable)\nAtivação: Automática por puxada\nBateria: Integrada (não recarregável)\nUso: Pronto para uso imediato\nConteúdo: 1 dispositivo\n\n⚠ Observações\n\nNão necessita bateria externa\nNão recarregável\nSabores/variantes disponíveis no anúncio",
+      "price": 600,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777547348534-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T11:09:08.534Z",
+      "optionGroup": "SABOR COSMO",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "THUNDERSTORM (sativa)",
+          "image": "/uploads/opt-1777547348534-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "COSMIC BERRY (indica)",
+          "image": "/uploads/opt-1777547348534-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "COOKIES AND CREAM (hibrida)",
+          "image": "/uploads/opt-1777547348534-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "HELL FIRE (indica)",
+          "image": "/uploads/opt-1777547348534-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "STARMELON (hibrida)",
+          "image": "/uploads/opt-1777547348534-frUfv-4.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1777483403406-frUfv",
+      "name": "POD THC 7ML COSMO",
+      "description": "🔥 COSMO THC Premium Disposable\n\n🌌 Dispositivo descartável premium\n💨 Vapor suave com sabor intenso\n🧪 Óleo de alta qualidade com perfil terpênico rico\n⚡ Ativação automática (sem botão)\n🔋 Bateria integrada — pronto para uso\n📦 Design moderno, discreto e portátil\n✨ Excelente autonomia e rendimento\n🎯 Ideal para quem busca praticidade + experiência premium\n\nInformações técnicas\nTipo: Dispositivo descartável (Disposable)\nAtivação: Automática por puxada\nBateria: Integrada (não recarregável)\nUso: Pronto para uso imediato\nConteúdo: 1 dispositivo\n\n⚠ Observações\n\nNão necessita bateria externa\nNão recarregável\nSabores/variantes disponíveis no anúncio",
+      "price": 600,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777483403406-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T17:23:23.406Z",
+      "optionGroup": "SABOR COSMO",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "THUNDERSTORM (sativa)",
+          "image": "/uploads/opt-1777483403406-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "COSMIC BERRY (indica)",
+          "image": "/uploads/opt-1777483403406-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "INCREDIBLE HULK (sativa)",
+          "image": "/uploads/opt-1777483403406-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "COOKIES AND CREAM (hibrida)",
+          "image": "/uploads/opt-1777483403406-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "HELL FIRE (indica)",
+          "image": "/uploads/opt-1777483403406-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "STARMELON (hibrida)",
+          "image": "/uploads/opt-1777483403406-frUfv-5.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1780673512250-frUfv",
+      "name": "POD THC JEETER JUICE 1ML",
+      "description": "🔥 Jeeter Juice Live Resin 1000MG\n\n🌿 Live Resin Premium\n💎 Extração Full Spectrum\n⚡ 1000MG / 1 Grama\n🍋 Terpenos naturais de alta qualidade\n🎯 Sabor intenso e autêntico\n💨 Vapor suave e potente\n🔬 Lab Tested & Verified\n✅ Matéria-prima premium\n🌱 Perfil rico em canabinoides\n🏆 Qualidade superior Jeeter Juice\n\n📦 Capacidade: 1000MG (1G)\n🌿 Tipo: Live Resin\n⭐ Categoria: Premium Cartridge\n🔋 Pronto para uso\n💎 Experiência premium do início ao fim.",
+      "price": 300,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1780673512250-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-06-05T15:31:52.250Z",
+      "optionGroup": "SABOR JEETER",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "COSMO (hibrida)",
+          "image": "/uploads/opt-1780673512250-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "SUPER SILVER HAZE (sativa",
+          "image": "/uploads/opt-1780673512250-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "PURPLE PESOS (sativa)",
+          "image": "/uploads/opt-1780673512250-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "SGV OG (hibrida)",
+          "image": "/uploads/opt-1780673512250-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "JACK HERER (sativa)",
+          "image": "/uploads/opt-1780673512250-frUfv-4.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1780534594240-frUfv",
+      "name": "POD THC JEETER JUICE 1ML",
+      "description": "🔥 Jeeter Juice Live Resin 1000MG\n\n🌿 Live Resin Premium\n💎 Extração Full Spectrum\n⚡ 1000MG / 1 Grama\n🍋 Terpenos naturais de alta qualidade\n🎯 Sabor intenso e autêntico\n💨 Vapor suave e potente\n🔬 Lab Tested & Verified\n✅ Matéria-prima premium\n🌱 Perfil rico em canabinoides\n🏆 Qualidade superior Jeeter Juice\n\n📦 Capacidade: 1000MG (1G)\n🌿 Tipo: Live Resin\n⭐ Categoria: Premium Cartridge\n🔋 Pronto para uso\n💎 Experiência premium do início ao fim.",
+      "price": 300,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1780534594240-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-06-04T00:56:34.240Z",
+      "optionGroup": "SABOR JEETER",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "COSMO (hibrida)",
+          "image": "/uploads/opt-1780673512250-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "SUPER SILVER HAZE (sativa",
+          "image": "/uploads/opt-1780673512250-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "PURPLE PESOS (sativa)",
+          "image": "/uploads/opt-1780673512250-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "SGV OG (hibrida)",
+          "image": "/uploads/opt-1780673512250-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "JACK HERER (sativa)",
+          "image": "/uploads/opt-1780673512250-frUfv-4.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1777557357835-frUfv",
+      "name": "REFIL THC 1ML FRIEDLY FARMS",
+      "description": "🔥 Friendly Farms Premium Live Resin Cartridge\n\n🌿 Cartucho premium com extração de alta qualidade\n💨 Vapor suave, sabor intenso e perfil terpênico rico\n🧪 Live Resin para experiência mais completa e autêntica\n🔋 Compatível com baterias padrão 510 thread (bateria não inclusa)\n⚡ Rosqueou, usou — simples e discreto\n📦 Cartucho portátil e acabamento premium\n✨ Excelente rendimento e consistência\n🎯 Ideal para quem busca qualidade superior em extrações premium\n\nInformações técnicas\n\nTipo: Cartucho / Refil premium\nExtração: Live Resin\nConexão: Universal 510\nUso: Requer bateria compatível para funcionamento\nConteúdo: 1 cartucho/refil (não acompanha bateria)\n\nImportante\n⚠ Necessário bateria 510 para uso\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 280,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777557357835-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T13:55:57.835Z",
+      "optionGroup": "SABOR FRIEDLY FARMS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "PASSION SMOOTHIE (hibrida)",
+          "image": "/uploads/opt-1777557357835-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PINEAPPLE PASSION (sativa)",
+          "image": "/uploads/opt-1777557357835-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "MELON BRAINZ (hibrida)",
+          "image": "/uploads/opt-1777557357835-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "GRAPE LOLLI (indica)",
+          "image": "/uploads/opt-1777557357835-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "Z3 (sativa)",
+          "image": "/uploads/opt-1777557357835-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "BLOOBERRY (hibrida)",
+          "image": "/uploads/opt-1777557357835-frUfv-5.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777477778825-frUfv",
+      "name": "REFIL THC 1ML FRIEDLY FARMS",
+      "description": "🔥 Friendly Farms Premium Live Resin Cartridge\n\n🌿 Cartucho premium com extração de alta qualidade\n💨 Vapor suave, sabor intenso e perfil terpênico rico\n🧪 Live Resin para experiência mais completa e autêntica\n🔋 Compatível com baterias padrão 510 thread (bateria não inclusa)\n⚡ Rosqueou, usou — simples e discreto\n📦 Cartucho portátil e acabamento premium\n✨ Excelente rendimento e consistência\n🎯 Ideal para quem busca qualidade superior em extrações premium\n\nInformações técnicas\n\nTipo: Cartucho / Refil premium\nExtração: Live Resin\nConexão: Universal 510\nUso: Requer bateria compatível para funcionamento\nConteúdo: 1 cartucho/refil (não acompanha bateria)\n\nImportante\n⚠ Necessário bateria 510 para uso\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 280,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777477778825-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T15:49:38.825Z",
+      "optionGroup": "SABOR FRIEDLY FARMS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "PASSION SMOOTHIE (hibrida)",
+          "image": "/uploads/opt-1777477778825-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PINEAPPLE PASSION (sativa)",
+          "image": "/uploads/opt-1777477778825-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "MELON BRAINZ (hibrida)",
+          "image": "/uploads/opt-1777477778825-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "GRAPE LOLLI (indica)",
+          "image": "/uploads/opt-1777477778825-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "Z3 (sativa)",
+          "image": "/uploads/opt-1777477778825-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "BLOOBERRY (hibrida)",
+          "image": "/uploads/opt-1777477778825-frUfv-5.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1787583104731-frUfv",
+      "name": "REFIL THC 1ML WAVY",
+      "description": "🔥 WAVY 510 CARTRIDGE – DELTA 8 + THCP | 1G / 1ML\n\nUma opção premium em cartucho 510, combinando Delta 8 + THCP em 1 grama / 1 ml de óleo. O sistema conta com fluxo de ar regulável, permitindo escolher entre uma puxada mais aberta e suave ou mais fechada e concentrada.\n\n✨ DESTAQUES\n\n💎 Delta 8 + THCP\n💧 1G / 1ML\n🔩 Conexão universal 510 Thread\n🌬️ Fluxo de ar regulável\n🔥 Compatível com baterias com pré-aquecimento\n⚡ Pode ser utilizado em baterias com voltagem regulável\n🌿 Disponível em diferentes strains/variedades\n📦 Cartucho protegido em embalagem individual\n🔋 BATERIAS COMPATÍVEIS\n\nCompatível com praticamente qualquer bateria padrão 510 Thread, incluindo:\n\n🔋 Baterias tipo caneta 510\n🔋 Baterias 510 com botão\n🔋 Baterias 510 automáticas\n⚡ Baterias com voltagem regulável\n🔥 Baterias com função Preheat / Pré-aquecimento\n\nBateria 510 vendida separadamente.\n\n⚡ VOLTAGEM RECOMENDADA\n\nPara preservar o sabor e evitar aquecimento excessivo do óleo:\n\nComece entre 2.4V e 2.8V.\n\nCaso prefira maior produção de vapor, aumente gradualmente.\n\n⚠️ Evite utilizar voltagem excessivamente alta, pois isso pode superaquecer o óleo, alterar o sabor e reduzir a vida útil da resistência.\n\n🔥 COMO USAR O PRÉ-AQUECIMENTO\n\nSe sua bateria possuir função PREHEAT, ela pode ajudar principalmente quando o óleo estiver mais viscoso ou após algum tempo sem utilização.\n\nRosqueie o cartucho suavemente na bateria 510.\nAtive o modo Preheat conforme as instruções da sua bateria.\nAguarde o ciclo de aquecimento finalizar.\nFaça puxadas leves e progressivas.\n\n💡 Em muitas baterias 510, o pré-aquecimento é ativado com cliques rápidos no botão, mas o comando pode variar conforme o modelo.\n\n🌬️ FLUXO DE AR REGULÁVEL\n\nO WAVY possui controle de airflow, permitindo personalizar a puxada:\n\n🌬️ Mais aberto: puxada mais leve e maior passagem de ar.\n\n🔥 Mais fechado: puxada mais restrita e concentrada, semelhante à experiência de alguns pods descartáveis.\n\nAjuste aos poucos até encontrar a configuração que preferir.\n\n🛡️ CUIDADOS IMPORTANTES\n☀️ Evite exposição direta ao sol.\n🚗 Não deixe dentro de veículos quentes.\n🌡️ Armazene em ambiente fresco e seco.\n⬆️ Sempre que possível, mantenha o cartucho na posição vertical.\n🔩 Não aperte excessivamente ao rosquear na bateria.\n🔥 Evite várias puxadas longas consecutivas para não superaquecer a resistência.\n🧼 Mantenha a conexão 510 limpa e seca.\n👶 Mantenha longe do alcance de crianças e animais.\n\n💎 WAVY 510 — tecnologia, praticidade e controle de airflow em um cartucho premium.\n\n🔞 Produto destinado exclusivamente a adultos, observando a legislação aplicável na sua região.",
+      "price": 265,
+      "promoPrice": 249.99,
+      "category": "Joinville",
+      "image": "/uploads/1787583104731-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-08-24T14:51:44.731Z",
+      "optionGroup": "SABOR REFIL WAVY",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GREEN CRACK (sativa)",
+          "image": "/uploads/opt-1787583104731-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "SOUR DIESEL (sativa)",
+          "image": "/uploads/opt-1787583104731-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "KING LOUIS (indica)",
+          "image": "/uploads/opt-1787583104731-frUfv-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "178758291659231be17-frUf",
+      "name": "REFIL THC 1ML WAVY",
+      "description": "🔥 WAVY 510 CARTRIDGE – DELTA 8 + THCP | 1G / 1ML\n\nUma opção premium em cartucho 510, combinando Delta 8 + THCP em 1 grama / 1 ml de óleo. O sistema conta com fluxo de ar regulável, permitindo escolher entre uma puxada mais aberta e suave ou mais fechada e concentrada.\n\n✨ DESTAQUES\n\n💎 Delta 8 + THCP\n💧 1G / 1ML\n🔩 Conexão universal 510 Thread\n🌬️ Fluxo de ar regulável\n🔥 Compatível com baterias com pré-aquecimento\n⚡ Pode ser utilizado em baterias com voltagem regulável\n🌿 Disponível em diferentes strains/variedades\n📦 Cartucho protegido em embalagem individual\n🔋 BATERIAS COMPATÍVEIS\n\nCompatível com praticamente qualquer bateria padrão 510 Thread, incluindo:\n\n🔋 Baterias tipo caneta 510\n🔋 Baterias 510 com botão\n🔋 Baterias 510 automáticas\n⚡ Baterias com voltagem regulável\n🔥 Baterias com função Preheat / Pré-aquecimento\n\nBateria 510 vendida separadamente.\n\n⚡ VOLTAGEM RECOMENDADA\n\nPara preservar o sabor e evitar aquecimento excessivo do óleo:\n\nComece entre 2.4V e 2.8V.\n\nCaso prefira maior produção de vapor, aumente gradualmente.\n\n⚠️ Evite utilizar voltagem excessivamente alta, pois isso pode superaquecer o óleo, alterar o sabor e reduzir a vida útil da resistência.\n\n🔥 COMO USAR O PRÉ-AQUECIMENTO\n\nSe sua bateria possuir função PREHEAT, ela pode ajudar principalmente quando o óleo estiver mais viscoso ou após algum tempo sem utilização.\n\nRosqueie o cartucho suavemente na bateria 510.\nAtive o modo Preheat conforme as instruções da sua bateria.\nAguarde o ciclo de aquecimento finalizar.\nFaça puxadas leves e progressivas.\n\n💡 Em muitas baterias 510, o pré-aquecimento é ativado com cliques rápidos no botão, mas o comando pode variar conforme o modelo.\n\n🌬️ FLUXO DE AR REGULÁVEL\n\nO WAVY possui controle de airflow, permitindo personalizar a puxada:\n\n🌬️ Mais aberto: puxada mais leve e maior passagem de ar.\n\n🔥 Mais fechado: puxada mais restrita e concentrada, semelhante à experiência de alguns pods descartáveis.\n\nAjuste aos poucos até encontrar a configuração que preferir.\n\n🛡️ CUIDADOS IMPORTANTES\n☀️ Evite exposição direta ao sol.\n🚗 Não deixe dentro de veículos quentes.\n🌡️ Armazene em ambiente fresco e seco.\n⬆️ Sempre que possível, mantenha o cartucho na posição vertical.\n🔩 Não aperte excessivamente ao rosquear na bateria.\n🔥 Evite várias puxadas longas consecutivas para não superaquecer a resistência.\n🧼 Mantenha a conexão 510 limpa e seca.\n👶 Mantenha longe do alcance de crianças e animais.\n\n💎 WAVY 510 — tecnologia, praticidade e controle de airflow em um cartucho premium.\n\n🔞 Produto destinado exclusivamente a adultos, observando a legislação aplicável na sua região.",
+      "price": 265,
+      "promoPrice": 249.99,
+      "category": "Itajaí",
+      "image": "/uploads/178758291659231be17-frUf.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-08-24T14:48:35.772Z",
+      "optionGroup": "SABOR REFIL WAVY",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GREEN CRACK (sativa)",
+          "image": "/uploads/opt-178758291659231be17-frUf-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "SOUR DIESEL (sativa)",
+          "image": "/uploads/opt-178758291659231be17-frUf-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "KING LOUIS (indica)",
+          "image": "/uploads/opt-178758291659231be17-frUf-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1780221673966-frUfv",
+      "name": "REFIL THC 2ML - HALF BAKED",
+      "description": "👻 HALF BAKD SAUCED – Postless Cartridge 2ML\n\n🔥 Experiência premium com extração de alta qualidade e sabor intenso. O HALF BAKD SAUCED combina tecnologia de cartucho postless, construção premium e óleo de alta viscosidade para uma experiência suave, potente e consistente do início ao fim.\n\n✨ Destaques do Produto\n\n✅ Capacidade de 2ml\n✅ Tecnologia Postless Cartridge\n✅ Óleo Premium Live Sauce\n✅ Fluxo de vapor suave e consistente\n✅ Construção resistente e acabamento premium\n✅ Rosca padrão 510\n✅ Design compacto e discreto\n✅ Excelente preservação de sabor e aroma\n✅ Cartucho recarregável e reutilizável*\n\n📋 Especificações Técnicas\n\n🔹 Marca: HALF BAKD\n🔹 Linha: SAUCED\n🔹 Tipo: Cartucho Postless\n🔹 Capacidade: 2ml\n🔹 Conexão: 510 Rosca Universal\n🔹 Material do Reservatório: Policarbonato de alta resistência\n🔹 Tecnologia: Live Sauce\n🔹 Sistema: Fluxo otimizado para vaporização uniforme\n🔹 Compatibilidade: Baterias com conexão 510\n\n🚀 Benefícios\n\n💨 Vapor suave e encorpado\n🎯 Aquecimento eficiente e uniforme\n🔋 Compatível com diversas baterias 510\n✨ Design moderno e discreto\n🛡️ Construção premium para maior durabilidade\n\n📦 Conteúdo da Embalagem\n\n📌 1x HALF BAKD SAUCED Postless Cartridge 2ML\n\n⚠️ Produto destinado exclusivamente para uso com dispositivos compatíveis. Mantenha fora do alcance de crianças e animais domésticos.\n\n🔥 HALF BAKD SAUCED — qualidade premium, design moderno e máxima performance em cada sessão.",
+      "price": 450,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1780221673966-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-31T10:01:13.966Z",
+      "optionGroup": "SABOR REFIL HALFBAKED",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "APPLE JACKE'D (hibrida)",
+          "image": "/uploads/opt-1780221673966-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PB+J SOUFFLE (indica)",
+          "image": "/uploads/opt-1780221673966-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "ANGEL FOOD (sativa)",
+          "image": "/uploads/opt-1780221673966-frUfv-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1780221026788-frUfv",
+      "name": "REFIL THC 2ML - HALF BAKED",
+      "description": "👻 HALF BAKD SAUCED – Postless Cartridge 2ML\n\n🔥 Experiência premium com extração de alta qualidade e sabor intenso. O HALF BAKD SAUCED combina tecnologia de cartucho postless, construção premium e óleo de alta viscosidade para uma experiência suave, potente e consistente do início ao fim.\n\n✨ Destaques do Produto\n\n✅ Capacidade de 2ml\n✅ Tecnologia Postless Cartridge\n✅ Óleo Premium Live Sauce\n✅ Fluxo de vapor suave e consistente\n✅ Construção resistente e acabamento premium\n✅ Rosca padrão 510\n✅ Design compacto e discreto\n✅ Excelente preservação de sabor e aroma\n✅ Cartucho recarregável e reutilizável*\n\n📋 Especificações Técnicas\n\n🔹 Marca: HALF BAKD\n🔹 Linha: SAUCED\n🔹 Tipo: Cartucho Postless\n🔹 Capacidade: 2ml\n🔹 Conexão: 510 Rosca Universal\n🔹 Material do Reservatório: Policarbonato de alta resistência\n🔹 Tecnologia: Live Sauce\n🔹 Sistema: Fluxo otimizado para vaporização uniforme\n🔹 Compatibilidade: Baterias com conexão 510\n\n🚀 Benefícios\n\n💨 Vapor suave e encorpado\n🎯 Aquecimento eficiente e uniforme\n🔋 Compatível com diversas baterias 510\n✨ Design moderno e discreto\n🛡️ Construção premium para maior durabilidade\n\n📦 Conteúdo da Embalagem\n\n📌 1x HALF BAKD SAUCED Postless Cartridge 2ML\n\n⚠️ Produto destinado exclusivamente para uso com dispositivos compatíveis. Mantenha fora do alcance de crianças e animais domésticos.\n\n🔥 HALF BAKD SAUCED — qualidade premium, design moderno e máxima performance em cada sessão.",
+      "price": 450,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1780221026788-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-05-31T09:50:26.788Z",
+      "optionGroup": "SABOR REFIL HALFBAKED",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "APPLE JACKE'D (hibrida)",
+          "image": "/uploads/opt-1780221026788-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "PB+J SOUFFLE (indica)",
+          "image": "/uploads/opt-1780221026788-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "ANGEL FOOD (sativa)",
+          "image": "/uploads/opt-1780221026788-frUfv-2.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1777554672595-frUfv",
+      "name": "REFIL THC 2ML HIDDER HILLS",
+      "description": "🔥 Hidden Hills Live Shatter Cart\n\n🌿 Extração premium Live Shatter\n💨 Vapor suave com sabor intenso\n🧪 Blend de alta pureza com perfil terpênico rico\n🔋 Compatível com bateria padrão 510 thread (bateria não inclusa)\n⚡ Rosqueou, usou — discreto e prático\n📦 Cartucho premium portátil\n✨ Excelente rendimento e consistência\n🎯 Ideal para quem busca extrações top shelf\n\nInformações técnicas\n\nTipo: Cartucho / Refil premium\nExtração: Live Shatter\nConexão: Universal 510\nCapacidade: 2 Gramas\nUso: Necessário bateria compatível\nConteúdo: 1 cartucho/refil (não acompanha bateria)\n\nDestaques\n✔ Premium Extract\n✔ High Potency Blend\n✔ Lab Tested\n✔ Top Shelf Experience\n\n⚠ Requer bateria 510 para uso\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 420,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777554672595-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T13:11:12.595Z",
+      "optionGroup": "SABOR REFIL HIDDER HILLS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "WHIPPED ORANGE ⚡️SATIVA⚡️",
+          "image": "/uploads/opt-1777554672595-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "JACK E JILL⚡️SATIVA⚡️",
+          "image": "/uploads/opt-1777554672595-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "KEYLINE LEST⚡️SATIVA⚡️",
+          "image": "/uploads/opt-1777554672595-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "PINKONADE RAZZBERRY⚡️HIBRIDA⚡️",
+          "image": "/uploads/opt-1777554672595-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "SUGAR MONSTER (indica)",
+          "image": "",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "PEACHY BOMBAY (indica)",
+          "image": "/uploads/opt-1777554672595-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "CANTALOUPE SLUSHY (híbrid",
+          "image": "/uploads/opt-1777554672595-frUfv-6.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777484651692-frUfv",
+      "name": "REFIL THC 2ML HIDDER HILLS",
+      "description": "🔥 Hidden Hills Live Shatter Cart\n\n🌿 Extração premium Live Shatter\n💨 Vapor suave com sabor intenso\n🧪 Blend de alta pureza com perfil terpênico rico\n🔋 Compatível com bateria padrão 510 thread (bateria não inclusa)\n⚡ Rosqueou, usou — discreto e prático\n📦 Cartucho premium portátil\n✨ Excelente rendimento e consistência\n🎯 Ideal para quem busca extrações top shelf\n\nInformações técnicas\n\nTipo: Cartucho / Refil premium\nExtração: Live Shatter\nConexão: Universal 510\nCapacidade: 2 Gramas\nUso: Necessário bateria compatível\nConteúdo: 1 cartucho/refil (não acompanha bateria)\n\nDestaques\n✔ Premium Extract\n✔ High Potency Blend\n✔ Lab Tested\n✔ Top Shelf Experience\n\n⚠ Requer bateria 510 para uso\n⚠ Sabores/variantes disponíveis no anúncio",
+      "price": 420,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777484651692-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T17:44:11.692Z",
+      "optionGroup": "SABOR REFIL HIDDER HILLS",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "WHIPPED ORANGE ⚡️SATIVA⚡️",
+          "image": "/uploads/opt-1777484651692-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "SUGAR MONSTER (indica)",
+          "image": "/uploads/opt-1777484651692-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "KEYLINE LEST (sativa)",
+          "image": "/uploads/opt-1777484651692-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "PEACHY BOMBAY (indica)",
+          "image": "/uploads/opt-1777484651692-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "CANTALOUPE SLUSHY (híbrid",
+          "image": "/uploads/opt-1777484651692-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "PINKONADE RASPBERRY(hibri",
+          "image": "/uploads/opt-1777484651692-frUfv-5.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777550031048-frUfv",
+      "name": "REFIL THC 3.5ML TORCH",
+      "description": "🔥 Torch Live Resin Diamonds THC-A Cartridge\n\n💎 Cartucho premium com Live Resin Diamonds\n🌿 Extração de alta potência com perfil terpênico rico\n💨 Vapor suave e sabor intenso\n🔬 Formulação premium para experiência top shelf\n⚡ Cartucho padrão 510 thread\n📦 Construção premium e alto rendimento\n✨ Hardware de qualidade e fluxo consistente\n🎯 Ideal para uso com baterias 510\n\nInformações técnicas\n\nTipo: Cartucho premium 510\nExtração: Live Resin Diamonds\nCapacidade: 3.5 Gramas\nConexão: Universal 510 Thread\nCompatibilidade: Requer bateria 510\nConteúdo: 1 cartucho (sabores/variantes separados no anúncio)\n\nDestaques\n✔ 3.5G High Capacity\n✔ Live Resin Diamonds\n✔ Flavor Rich Terpenes\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Necessita bateria 510 (vendida separadamente)\n⚠ Produto em cartucho rosqueável, não descartável",
+      "price": 460,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777550031048-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-30T11:53:51.048Z",
+      "optionGroup": "SABOR REFIL TORCH",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "SPACE RUNTZ  *hibrida*",
+          "image": "/uploads/opt-1777550031048-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "WATERMELON HASHPLANT *sativa*",
+          "image": "/uploads/opt-1777550031048-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "OREOZ *indica*",
+          "image": "/uploads/opt-1777550031048-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "RASPBERRY LEMONADE *sativa*",
+          "image": "/uploads/opt-1777550031048-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "ALIEN OG (indica)",
+          "image": "/uploads/opt-1777550031048-frUfv-4.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777489750393-frUfv",
+      "name": "REFIL THC 3.5ML TORCH",
+      "description": "🔥 Torch Live Resin Diamonds THC-A Cartridge\n\n💎 Cartucho premium com Live Resin Diamonds\n🌿 Extração de alta potência com perfil terpênico rico\n💨 Vapor suave e sabor intenso\n🔬 Formulação premium para experiência top shelf\n⚡ Cartucho padrão 510 thread\n📦 Construção premium e alto rendimento\n✨ Hardware de qualidade e fluxo consistente\n🎯 Ideal para uso com baterias 510\n\nInformações técnicas\n\nTipo: Cartucho premium 510\nExtração: Live Resin Diamonds\nCapacidade: 3.5 Gramas\nConexão: Universal 510 Thread\nCompatibilidade: Requer bateria 510\nConteúdo: 1 cartucho (sabores/variantes separados no anúncio)\n\nDestaques\n✔ 3.5G High Capacity\n✔ Live Resin Diamonds\n✔ Flavor Rich Terpenes\n✔ Lab Tested\n✔ Premium Quality\n\n⚠ Necessita bateria 510 (vendida separadamente)\n⚠ Produto em cartucho rosqueável, não descartável",
+      "price": 460,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777489750393-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": true,
+      "active": true,
+      "createdAt": "2026-04-29T19:09:10.393Z",
+      "optionGroup": "SABOR REFIL TORCH",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "SPACE RUNTZ  *hibrida*",
+          "image": "/uploads/opt-1777489750393-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "WATERMELON HASHPLANT *sativa*",
+          "image": "/uploads/opt-1777489750393-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "GRAPE STOMPER *sativa*",
+          "image": "/uploads/opt-1777489750393-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "OREOZ *indica*",
+          "image": "/uploads/opt-1777489750393-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "RASPBERRY LEMONADE *sativa*",
+          "image": "/uploads/opt-1777489750393-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "BOSS CAKE (indica)",
+          "image": "/uploads/opt-1777489750393-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "DREAM QUEEN (sativa)",
+          "image": "/uploads/opt-1777489750393-frUfv-6.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-7",
+          "title": "ALIEN OG (indica)",
+          "image": "/uploads/opt-1777489750393-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "JET FUEL (sativa)",
+          "image": "/uploads/opt-1777489750393-frUfv-8.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-9",
+          "title": "WHITE TRUFFLE (indica)",
+          "image": "/uploads/opt-1777489750393-frUfv-9.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-10",
+          "title": "LEMON CHERRY GELA(hibrid)",
+          "image": "/uploads/opt-1777489750393-frUfv-10.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1786891277543-frUfv",
+      "name": "10UNID.  POD THC 3ML HALF BAKED",
+      "description": "🔥 **HALF BAK’D PHC 3G — THC-P + THC-8** 🌿\n\nUma linha de **3G** com combinação de **THC-P + THC-8**, disponível em diferentes variantes e perfis aromáticos.\n\n💨 **Destaques**\n• 3G Disposable\n• THC-P + THC-8\n• Design compacto e discreto\n• Diferentes perfis de sabor/aroma\n• Miami Punch 🩵\n• God’s Gift 🩷\n• Ghost Train Haze 🧡\n\n🌿 **SATIVA x INDICA — qual a diferença?**\n\n☀️ **Sativa:** tradicionalmente associada a uma experiência mais estimulante, mental e energética.\n\n🌙 **Indica:** tradicionalmente associada a uma experiência mais relaxante, corporal e tranquila.\n\n⚠️ **Importante:** “Sativa” e “Indica” são referências gerais. A experiência pode variar bastante conforme concentração de cannabinoides, terpenos, organismo, tolerância e lote do produto.\n\n🧪 **Sobre os cannabinoides**\n**THC-8 (Delta-8 THC):** cannabinoide psicoativo, capaz de causar alteração de percepção e intoxicação.\n\n**THC-P:** cannabinoide da família do THC que ainda possui estudos limitados em humanos. Por isso, intensidade e duração podem variar bastante entre pessoas.\n\n⚠️ **CUIDADOS**\n🔞 Produto destinado somente a adultos onde permitido por lei.\n🚗 Não dirigir ou operar máquinas após o uso.\n🍺 Evitar combinar com álcool ou outras substâncias intoxicantes.\n👶 Manter fora do alcance de crianças e animais.\n💨 Pessoas com baixa tolerância ao THC devem ter atenção redobrada.\n❤️ Em caso de reação intensa ou inesperada, interrompa o uso e procure orientação médica.\n\n✨ **HALF BAK’D PHC 3G**\n**3 variantes • THC-P + THC-8 • experiência premium**\n",
+      "price": 2600,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1786891277543-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-08-16T14:41:17.543Z",
+      "optionGroup": "SABOR HALF BAKED 3G",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "MIAMI PUNCH (sativa)",
+          "image": "/uploads/opt-1786891270048-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "GODS GIFT (indica)",
+          "image": "/uploads/opt-1786891270048-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "GHOST TRAIN (sativa)",
+          "image": "/uploads/opt-1786891270048-frUfv-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1781879821271-frUfv",
+      "name": "10UNID. POD THC 7.5ML - TORCH CRYO",
+      "description": "🔥 Torch THC-A CRYO 7.5G\n\n💎 Dispositivo premium com tecnologia CRYO Cured Resin, desenvolvido para preservar os compostos naturais da planta e proporcionar uma experiência mais autêntica.\n\n⚙️ Especificações Técnicas\n• Capacidade: 7,5g\n• Canabinoide principal: THC-A\n• Extração: CRYO Cured Resin\n• Sistema de aquecimento de alta eficiência\n• Bateria recarregável\n• Carregamento USB-C\n• Dispositivo descartável de longa duração\n• Estrutura compacta e ergonômica\n• Alta capacidade de vaporização\n\n✅ Tecnologia CRYO para melhor preservação de terpenos e canabinoides\n✅ Vapor consistente e sabor mais fiel ao perfil original da extração\n✅ Design premium e acabamento sofisticado\n✅ Pronto para uso, sem necessidade de manutenção\n\n📦 Conteúdo: 1 dispositivo Torch THC-A CRYO 7.5G.",
+      "price": 4000,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1781879821271-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-06-19T14:37:01.271Z",
+      "optionGroup": "SABOR TORCH 7.5ML",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "BLUE GUAVA (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "WATERMELON MIMOSA (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "GREEN APPLE SKUNK (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "BANANA HAZE (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "PARADISE OG (hibrida)",
+          "image": "/uploads/opt-1781875321316-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "JUPITER JACK (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "GRAPE GELATO (indica)",
+          "image": "/uploads/opt-1781875321316-frUfv-6.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-7",
+          "title": "CAKE BOMB (indica)",
+          "image": "/uploads/opt-1781875321316-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "KALI MIST (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-8.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-9",
+          "title": "ROSE GOLD RUNTZ(hibrida)",
+          "image": "/uploads/opt-1781875321316-frUfv-9.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-10",
+          "title": "LEMON CREAM (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-10.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1778764458125-frUfv",
+      "name": "10UNID. POD THC PREMIUM 5ML HALF BAKED SUMO",
+      "description": "🔥 SUMO DISPO Half Bak’d 5G\n💎 Disposable premium de alta potência com extração de qualidade superior.\n🌿 Blend avançado com perfil rico em terpenos e vapor intenso.\n🚀 5 Gramas de capacidade para longa duração.\n💨 Puxada suave, sabor marcante e ótima produção de vapor.\n🔋 Bateria recarregável para aproveitar até a última gota.\n🧪 Produto premium, experiência potente e acabamento top shelf.\n\n✅ Recarregável\n✅ 5G High Potency Blend\n✅ Smooth Vapor Experience\n✅ Premium Disposable Device\n✅ Ideal para usuários exigentes",
+      "price": 3500,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778764458125-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-05-14T13:14:18.125Z",
+      "optionGroup": "SABOR HALF BAKE'D",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "SMARTIEZ🍁 INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "STRAWNANA 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "WHITE WINDOW 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "BUTTER BEER 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "MOTORNANA 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "HIPPE CRASHER🍁 INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "SMARTIEZ  🍁INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-6.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-7",
+          "title": "PURPLE CHURROS 🍁SATIVA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "CHEMDAWG 🍁INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-8.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1778764211955-frUfv",
+      "name": "10UNID. REFIL THC 1ML  ROVE",
+      "description": "ROVE Premium Distillate Cartridge 🔥🍯\n\nRefil premium 510 rosqueável para bateria compatível.\n\n💎 Extração premium distillate\n🌿 Blend de canabinoides de alta potência\n🔋 Compatível com baterias 510 thread\n💨 Vapor suave e sabor intenso\n🧪 Produto lab tested / qualidade top shelf\n📦 Cartucho discreto e portátil\n⚡ Alta concentração e rendimento\n\nImportante:\n✔ Necessita bateria 510 para uso (vendida separadamente)\n✔ Sabores/variantes selecionados no anúncio\n✔ Produto destinado para usuários experientes",
+      "price": 1750,
+      "promoPrice": null,
+      "category": "Atacado",
+      "image": "/uploads/1778764211955-frUfv.jpg",
+      "stock": 1,
+      "stockActive": true,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-05-14T13:10:11.955Z",
+      "optionGroup": "SABOR REFIL ROVE",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GLUE (hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "COOKIES(hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "KUSH (indica)",
+          "image": "/uploads/opt-1777492112239-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "WAUI (sativa)",
+          "image": "/uploads/opt-1777492112239-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "TANGIE (sativa)",
+          "image": "/uploads/opt-1777492112239-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "SHERBET (hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "DREAM (hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-6.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-7",
+          "title": "APE (indica)",
+          "image": "/uploads/opt-1777492112239-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "SKYWALKER (indica)",
+          "image": "/uploads/opt-1777492112239-frUfv-8.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-9",
+          "title": "HAZE(sativa)",
+          "image": "/uploads/opt-1777492112239-frUfv-9.jpg",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "1786891270048-frUfv",
+      "name": "POD THC 3ML HALF BAKED",
+      "description": "🔥 **HALF BAK’D PHC 3G — THC-P + THC-8** 🌿\n\nUma linha de **3G** com combinação de **THC-P + THC-8**, disponível em diferentes variantes e perfis aromáticos.\n\n💨 **Destaques**\n• 3G Disposable\n• THC-P + THC-8\n• Design compacto e discreto\n• Diferentes perfis de sabor/aroma\n• Miami Punch 🩵\n• God’s Gift 🩷\n• Ghost Train Haze 🧡\n\n🌿 **SATIVA x INDICA — qual a diferença?**\n\n☀️ **Sativa:** tradicionalmente associada a uma experiência mais estimulante, mental e energética.\n\n🌙 **Indica:** tradicionalmente associada a uma experiência mais relaxante, corporal e tranquila.\n\n⚠️ **Importante:** “Sativa” e “Indica” são referências gerais. A experiência pode variar bastante conforme concentração de cannabinoides, terpenos, organismo, tolerância e lote do produto.\n\n🧪 **Sobre os cannabinoides**\n**THC-8 (Delta-8 THC):** cannabinoide psicoativo, capaz de causar alteração de percepção e intoxicação.\n\n**THC-P:** cannabinoide da família do THC que ainda possui estudos limitados em humanos. Por isso, intensidade e duração podem variar bastante entre pessoas.\n\n⚠️ **CUIDADOS**\n🔞 Produto destinado somente a adultos onde permitido por lei.\n🚗 Não dirigir ou operar máquinas após o uso.\n🍺 Evitar combinar com álcool ou outras substâncias intoxicantes.\n👶 Manter fora do alcance de crianças e animais.\n💨 Pessoas com baixa tolerância ao THC devem ter atenção redobrada.\n❤️ Em caso de reação intensa ou inesperada, interrompa o uso e procure orientação médica.\n\n✨ **HALF BAK’D PHC 3G**\n**3 variantes • THC-P + THC-8 • experiência premium**\n",
+      "price": 420,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1786891270048-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-08-16T14:41:10.048Z",
+      "optionGroup": "SABOR HALF BAKED 3G",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "MIAMI PUNCH (sativa)",
+          "image": "/uploads/opt-1786891270048-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "GODS GIFT (indica)",
+          "image": "/uploads/opt-1786891270048-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "GHOST TRAIN (sativa)",
+          "image": "/uploads/opt-1786891270048-frUfv-2.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1781903002506-frUfv",
+      "name": "POD THC 7.5ML - TORCH CRYO",
+      "description": "🔥 Torch THC-A CRYO 7.5G\n\n💎 Dispositivo premium com tecnologia CRYO Cured Resin, desenvolvido para preservar os compostos naturais da planta e proporcionar uma experiência mais autêntica.\n\n⚙️ Especificações Técnicas\n• Capacidade: 7,5g\n• Canabinoide principal: THC-A\n• Extração: CRYO Cured Resin\n• Sistema de aquecimento de alta eficiência\n• Bateria recarregável\n• Carregamento USB-C\n• Dispositivo descartável de longa duração\n• Estrutura compacta e ergonômica\n• Alta capacidade de vaporização\n\n✅ Tecnologia CRYO para melhor preservação de terpenos e canabinoides\n✅ Vapor consistente e sabor mais fiel ao perfil original da extração\n✅ Design premium e acabamento sofisticado\n✅ Pronto para uso, sem necessidade de manutenção\n\n📦 Conteúdo: 1 dispositivo Torch THC-A CRYO 7.5G.",
+      "price": 650,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1781903002506-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-06-19T21:03:22.506Z",
+      "optionGroup": "SABOR TORCH 7.5ML",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "WATERMELON MIMOSA (sativa)",
+          "image": "/uploads/opt-1781903002506-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "GREEN APPLE SKUNK (sativa)",
+          "image": "/uploads/opt-1781903002506-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "PARADISE OG (hibrida)",
+          "image": "/uploads/opt-1781903002506-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "CAKE BOMB (indica)",
+          "image": "/uploads/opt-1781903002506-frUfv-3.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1781875321316-frUfv",
+      "name": "POD THC 7.5ML - TORCH CRYO",
+      "description": "🔥 Torch THC-A CRYO 7.5G\n\n💎 Dispositivo premium com tecnologia CRYO Cured Resin, desenvolvido para preservar os compostos naturais da planta e proporcionar uma experiência mais autêntica.\n\n⚙️ Especificações Técnicas\n• Capacidade: 7,5g\n• Canabinoide principal: THC-A\n• Extração: CRYO Cured Resin\n• Sistema de aquecimento de alta eficiência\n• Bateria recarregável\n• Carregamento USB-C\n• Dispositivo descartável de longa duração\n• Estrutura compacta e ergonômica\n• Alta capacidade de vaporização\n\n✅ Tecnologia CRYO para melhor preservação de terpenos e canabinoides\n✅ Vapor consistente e sabor mais fiel ao perfil original da extração\n✅ Design premium e acabamento sofisticado\n✅ Pronto para uso, sem necessidade de manutenção\n\n📦 Conteúdo: 1 dispositivo Torch THC-A CRYO 7.5G.",
+      "price": 650,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1781875321316-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-06-19T13:22:01.316Z",
+      "optionGroup": "SABOR TORCH 7.5ML",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "BLUE GUAVA (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "WATERMELON MIMOSA (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "GREEN APPLE SKUNK (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "BANANA HAZE (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "PARADISE OG (hibrida)",
+          "image": "/uploads/opt-1781875321316-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "JUPITER JACK (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "GRAPE GELATO (indica)",
+          "image": "/uploads/opt-1781875321316-frUfv-6.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-7",
+          "title": "CAKE BOMB (indica)",
+          "image": "/uploads/opt-1781875321316-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "KALI MIST (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-8.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-9",
+          "title": "ROSE GOLD RUNTZ(hibrida)",
+          "image": "/uploads/opt-1781875321316-frUfv-9.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-10",
+          "title": "LEMON CREAM (sativa)",
+          "image": "/uploads/opt-1781875321316-frUfv-10.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777549032742-frUfv",
+      "name": "POD THC PREMIUM 5ML HALF BAKED SUMO",
+      "description": "🔥 SUMO DISPO Half Bak’d 5G\n💎 Disposable premium de alta potência com extração de qualidade superior.\n🌿 Blend avançado com perfil rico em terpenos e vapor intenso.\n🚀 5 Gramas de capacidade para longa duração.\n💨 Puxada suave, sabor marcante e ótima produção de vapor.\n🔋 Bateria recarregável para aproveitar até a última gota.\n🧪 Produto premium, experiência potente e acabamento top shelf.\n\n✅ Recarregável\n✅ 5G High Potency Blend\n✅ Smooth Vapor Experience\n✅ Premium Disposable Device\n✅ Ideal para usuários exigentes",
+      "price": 550,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777549032742-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-04-30T11:37:12.742Z",
+      "optionGroup": "SABOR HALF BAKE'D",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "SMARTIEZ🍁 INDICA🍁",
+          "image": "/uploads/opt-1777549032742-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "STRAWNANA 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777549032742-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "WHITE WINDOW 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777549032742-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "BUTTER BEER 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777549032742-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "MOTORNANA 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777549032742-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "HIPPE CRASHER🍁 INDICA🍁",
+          "image": "/uploads/opt-1777549032742-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "CHEMDAWG 🍁INDICA🍁",
+          "image": "/uploads/opt-1777549032742-frUfv-6.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777493618232-frUfv",
+      "name": "POD THC PREMIUM 5ML HALF BAKED SUMO",
+      "description": "🔥 SUMO DISPO Half Bak’d 5G\n💎 Disposable premium de alta potência com extração de qualidade superior.\n🌿 Blend avançado com perfil rico em terpenos e vapor intenso.\n🚀 5 Gramas de capacidade para longa duração.\n💨 Puxada suave, sabor marcante e ótima produção de vapor.\n🔋 Bateria recarregável para aproveitar até a última gota.\n🧪 Produto premium, experiência potente e acabamento top shelf.\n\n✅ Recarregável\n✅ 5G High Potency Blend\n✅ Smooth Vapor Experience\n✅ Premium Disposable Device\n✅ Ideal para usuários exigentes",
+      "price": 550,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777493618232-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-04-29T20:13:38.232Z",
+      "optionGroup": "SABOR HALF BAKE'D",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "SMARTIEZ🍁 INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-0.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-1",
+          "title": "STRAWNANA 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-1.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-2",
+          "title": "WHITE WINDOW 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "BUTTER BEER 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-3.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "MOTORNANA 🍁 HIBRIDA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-4.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-5",
+          "title": "HIPPE CRASHER🍁 INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "SMARTIEZ  🍁INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-6.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-7",
+          "title": "PURPLE CHURROS 🍁SATIVA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "CHEMDAWG 🍁INDICA🍁",
+          "image": "/uploads/opt-1777493618232-frUfv-8.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777745289655-frUfv",
+      "name": "REFIL THC 1ML  ROVE",
+      "description": "ROVE Premium Distillate Cartridge 🔥🍯\n\nRefil premium 510 rosqueável para bateria compatível.\n\n💎 Extração premium distillate\n🌿 Blend de canabinoides de alta potência\n🔋 Compatível com baterias 510 thread\n💨 Vapor suave e sabor intenso\n🧪 Produto lab tested / qualidade top shelf\n📦 Cartucho discreto e portátil\n⚡ Alta concentração e rendimento\n\nImportante:\n✔ Necessita bateria 510 para uso (vendida separadamente)\n✔ Sabores/variantes selecionados no anúncio\n✔ Produto destinado para usuários experientes",
+      "price": 290,
+      "promoPrice": null,
+      "category": "Joinville",
+      "image": "/uploads/1777745289655-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-05-02T18:08:09.655Z",
+      "optionGroup": "SABOR REFIL ROVE",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "WAUI (sativa)",
+          "image": "/uploads/opt-1777745289655-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "TANGIE (sativa)",
+          "image": "/uploads/opt-1777745289655-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "SHERBET (hibrida)",
+          "image": "/uploads/opt-1777745289655-frUfv-2.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-3",
+          "title": "DREAM (hibrida)",
+          "image": "",
+          "available": true
+        },
+        {
+          "id": "opt-4",
+          "title": "APE (indica)",
+          "image": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "1777492112239-frUfv",
+      "name": "REFIL THC 1ML  ROVE",
+      "description": "ROVE Premium Distillate Cartridge 🔥🍯\n\nRefil premium 510 rosqueável para bateria compatível.\n\n💎 Extração premium distillate\n🌿 Blend de canabinoides de alta potência\n🔋 Compatível com baterias 510 thread\n💨 Vapor suave e sabor intenso\n🧪 Produto lab tested / qualidade top shelf\n📦 Cartucho discreto e portátil\n⚡ Alta concentração e rendimento\n\nImportante:\n✔ Necessita bateria 510 para uso (vendida separadamente)\n✔ Sabores/variantes selecionados no anúncio\n✔ Produto destinado para usuários experientes",
+      "price": 290,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "image": "/uploads/1777492112239-frUfv.jpg",
+      "stock": null,
+      "stockActive": false,
+      "pin": false,
+      "active": true,
+      "createdAt": "2026-04-29T19:48:32.239Z",
+      "optionGroup": "SABOR REFIL ROVE",
+      "options": [
+        {
+          "id": "opt-0",
+          "title": "GLUE (hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-0.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-1",
+          "title": "COOKIES(hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-1.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-2",
+          "title": "KUSH (indica)",
+          "image": "/uploads/opt-1777492112239-frUfv-2.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-3",
+          "title": "WAUI (sativa)",
+          "image": "/uploads/opt-1777492112239-frUfv-3.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-4",
+          "title": "TANGIE (sativa)",
+          "image": "/uploads/opt-1777492112239-frUfv-4.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-5",
+          "title": "SHERBET (hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-5.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-6",
+          "title": "DREAM (hibrida)",
+          "image": "/uploads/opt-1777492112239-frUfv-6.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-7",
+          "title": "APE (indica)",
+          "image": "/uploads/opt-1777492112239-frUfv-7.jpg",
+          "available": true
+        },
+        {
+          "id": "opt-8",
+          "title": "SKYWALKER (indica)",
+          "image": "/uploads/opt-1777492112239-frUfv-8.jpg",
+          "available": false
+        },
+        {
+          "id": "opt-9",
+          "title": "HAZE(sativa)",
+          "image": "/uploads/opt-1777492112239-frUfv-9.jpg",
+          "available": false
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "u-admin",
+      "username": "admin",
+      "name": "Administrador",
+      "role": "admin",
+      "salt": "040bb8c890b224411e6f90d27cde22dc",
+      "hash": "60a71a69e17ac04f12b6112da9965c0a99164ef33b2786c982f87f99a351ba2aa65f8c42701f5897c3e69399e12ee8a03892e3aa630c1789f87a81961c157a66",
+      "createdAt": "2026-08-31T20:35:44.702Z"
+    }
+  ],
+  "ledger": []
+}

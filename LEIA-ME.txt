@@ -1,0 +1,46 @@
+GOLD SKULL — como ligar a loja
+================================
+
+1) Instale o Node.js (se ainda não tiver):
+   https://nodejs.org  (versão LTS)
+
+2) Nesta pasta, clique com o botão direito e abra o terminal.
+   Depois rode:
+
+   npm install
+   npm start
+
+3) Abra no navegador:
+   Loja:   http://localhost:3000
+   Painel: http://localhost:3000/admin
+
+LOGIN DO PAINEL
+---------------
+Usuário: admin
+Senha:   goldskull
+
+Troque essa senha em Painel > Acessos.
+
+COMO ANUNCIAR UM PRODUTO
+------------------------
+1. Entre no painel
+2. Clique em "+ Anunciar produto"
+3. Coloque nome, preço, categoria e foto
+4. Clique em "Salvar produto"
+O item aparece na loja na hora.
+
+COMO TIRAR UM PRODUTO
+---------------------
+No painel, na lista, clique em "Tirar".
+
+COMO CRIAR ACESSO PARA OUTRA PESSOA
+-----------------------------------
+Acessos > preencha nome, usuário e senha > Criar acesso.
+A pessoa entra no mesmo endereço /admin.
+
+PEDIDOS
+-------
+O cliente monta a sacola e clica em "Finalizar no WhatsApp".
+A mensagem chega pronta no número cadastrado da loja.
+
+Para parar o site, feche a janela do terminal ou aperte Ctrl+C.
