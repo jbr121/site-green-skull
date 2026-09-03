@@ -12,10 +12,11 @@
   <link rel="stylesheet" href="/css/style.css?v=11" />
 </head>
 <body>
-  <div id="age-gate" class="age-gate hidden">
+  <a href="#top" class="skip-link">Pular para conteúdo</a>
+  <div id="age-gate" class="age-gate hidden" role="dialog" aria-modal="true" aria-labelledby="age-title">
     <div class="age-box">
-      <h2>Você tem 18 anos?</h2>
-      <p>Só entra quem é maior de idade.</p>
+      <h2 id="age-title">Você tem 18 anos?</h2>
+      <p id="age-desc">Só entra quem é maior de idade.</p>
       <div class="age-actions">
         <button id="age-yes" class="btn btn-gold btn-big">SIM, TENHO 18+</button>
         <a id="age-no" class="btn btn-ghost" href="https://www.google.com">Não tenho</a>
@@ -58,8 +59,8 @@
     </section>
 
     <section class="info-strip info-strip-compact" id="info-strip">
-      <div class="info-item"><span>💳</span><p id="payment-note"></p></div>
-      <div class="info-item info-shipping-hint"><span>🛵</span><p>Frete por região — escolha no pedido</p></div>
+      <div class="info-item"><span aria-hidden="true">💳</span><p id="payment-note"></p></div>
+      <div class="info-item info-shipping-hint"><span aria-hidden="true">🛵</span><p>Frete por região — escolha no pedido</p></div>
     </section>
 
     <section class="grid-section">
@@ -69,7 +70,7 @@
       </div>
       <div class="grid" id="grid"></div>
       <div class="empty hidden" id="empty">
-        <span>🔍</span>
+        <span aria-hidden="true">🔍</span>
         <p>Nenhum produto encontrado.</p>
       </div>
     </section>
@@ -105,7 +106,7 @@
       <h3>Seu pedido</h3>
       <button class="modal-close" id="cart-close" aria-label="Fechar">✕</button>
     </div>
-    <p class="cart-summary hidden" id="cart-summary"></p>
+    <p class="cart-summary hidden" id="cart-summary" aria-live="polite" aria-atomic="true"></p>
     <div class="cart-items" id="cart-items"></div>
     <div class="cart-empty hidden" id="cart-empty">
       <span>👆</span>
@@ -123,10 +124,10 @@
         </div>
         <div class="wizard-panel" id="wizard-step-1">
           <p class="step-title">Sua cidade de entrega</p>
-          <p class="city-warn">Motoboy R$ 15 só na cidade de Itajaí ou Joinville. Balneário, Navegantes e outras = Outras cidades (R$ 50).</p>
+          <p class="city-warn" id="city-warn">Motoboy R$ 15 só na cidade de Itajaí ou Joinville. Balneário, Navegantes e outras = Outras cidades (R$ 50).</p>
           <div id="shipping-choices"></div>
           <label class="city-confirm" id="city-confirm-label">
-            <input type="checkbox" id="city-confirm" />
+            <input type="checkbox" id="city-confirm" aria-describedby="city-warn" />
             <span id="city-confirm-text">Confirmo que estou nessa cidade</span>
           </label>
           <div class="cart-totals cart-totals-compact">
@@ -168,14 +169,15 @@
   </aside>
 
   <div class="cart-bar hidden" id="cart-bar">
-    <button type="button" class="cart-bar-btn" id="cart-bar-open">
+    <button type="button" class="cart-bar-btn" id="cart-bar-open" aria-label="Ver pedido">
       <span>Ver pedido</span>
       <strong id="cart-bar-total">R$ 0,00</strong>
     </button>
   </div>
+  <div id="cart-live" class="sr-only" aria-live="polite" aria-atomic="true"></div>
 
-  <div class="toast hidden" id="toast"></div>
-  <div class="toast toast-ask hidden" id="toast-ask">
+  <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+  <div class="toast toast-ask hidden" id="toast-ask" role="alertdialog" aria-live="assertive" aria-labelledby="toast-ask-msg">
     <p id="toast-ask-msg"></p>
     <div class="toast-ask-actions">
       <button type="button" class="btn btn-gold btn-sm" id="toast-ask-yes">Sim</button>
@@ -183,6 +185,6 @@
     </div>
   </div>
 
-  <script src="/js/app.js?v=9"></script>
+  <script src="/js/app.js?v=12"></script>
 </body>
 </html>
