@@ -564,7 +564,6 @@
     $('#s-tagline').value = s.tagline || '';
     $('#s-extra').value = s.extra || '';
     $('#s-whatsapp').value = s.whatsapp || '';
-    $('#s-instagram').value = s.instagram || '';
     $('#s-address').value = s.address || '';
     $('#s-checkoutMessage').value = s.checkoutMessage || '';
     $('#s-payments').value = (s.payments || []).join('\n');
@@ -624,7 +623,6 @@
           tagline: $('#s-tagline').value,
           extra: $('#s-extra').value,
           whatsapp: $('#s-whatsapp').value.replace(/\D/g, ''),
-          instagram: $('#s-instagram').value,
           address: $('#s-address').value,
           checkoutMessage: $('#s-checkoutMessage').value,
           payments: $('#s-payments').value.split('\n').map((x) => x.trim()).filter(Boolean),

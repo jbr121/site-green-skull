@@ -4,7 +4,7 @@
     "tagline": "Loja de testes",
     "extra": "Produtos de teste para E2E",
     "whatsapp": "5583999999999",
-    "instagram": "GOLDSKULL",
+    "instagram": "",
     "address": "Santa Catarina",
     "themeColor": "#ffbe0e",
     "banner": "",
@@ -37,6 +37,40 @@
     "Atacado"
   ],
   "products": [
+    {
+      "name": "Produto Cypress",
+      "description": "",
+      "price": 250,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "stock": null,
+      "stockActive": false,
+      "cost": null,
+      "pin": false,
+      "active": true,
+      "image": "",
+      "optionGroup": "",
+      "options": [],
+      "id": "p-mtlsk7ao-deffcb",
+      "createdAt": "2026-09-03T17:20:59.376Z"
+    },
+    {
+      "name": "Produto Cypress",
+      "description": "",
+      "price": 300,
+      "promoPrice": null,
+      "category": "Itajaí",
+      "stock": null,
+      "stockActive": false,
+      "cost": null,
+      "pin": false,
+      "active": true,
+      "image": "",
+      "optionGroup": "",
+      "options": [],
+      "id": "p-mtlsjjll-2087e4",
+      "createdAt": "2026-09-03T17:20:28.665Z"
+    },
     {
       "name": "Produto Cypress",
       "description": "",
@@ -102,6 +136,16 @@
       "options": []
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "id": "u-admin",
+      "username": "admin",
+      "name": "Administrador",
+      "role": "admin",
+      "salt": "3bb36e12e65817bd4ed5b55c626ea6d9",
+      "hash": "ed8e5eab2dd3d76ffdcade08ce240ad96a5ccf9756832038227ea56d99549b08cbffd9da600c29b629ef79f1563bc6b1daf9b4afdee1971633fb1d70d01b1006",
+      "createdAt": "2026-09-03T17:19:00.000Z"
+    }
+  ],
   "ledger": []
 }

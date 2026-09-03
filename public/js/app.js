@@ -130,8 +130,6 @@
         tagline: s.tagline || '',
         description: s.extra || '',
         whatsapp: String(s.whatsapp || '').replace(/\D/g, ''),
-        instagram: s.instagram || '',
-        instagramUrl: s.instagram ? 'https://instagram.com/' + String(s.instagram).replace(/^@/, '') : '',
         address: s.address || '',
         banner: s.banner || '',
         checkoutMessage: s.checkoutMessage || '',
@@ -191,7 +189,6 @@
     const wa = s.whatsapp ? `https://wa.me/${s.whatsapp}` : '#';
     $('#wa-float').href = wa;
     $('#footer-wa').href = wa;
-    if (s.instagramUrl) $('#footer-ig').href = s.instagramUrl;
     if (!state.shipId && s.shipping[0]) state.shipId = s.shipping[0].id;
     fillGuest();
     if (!state.pay && s.payments[0]) state.pay = s.payments[0];
