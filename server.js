@@ -4,12 +4,25 @@ const crypto = require("crypto");
 const express = require("express");
 const session = require("express-session");
 const multer = require("multer");
+const {
+  protectConfig,
+  securityHeaders,
+  generalLimiter,
+  apiLimiter,
+  loginLimiter,
+  concurrencyGate,
+  applyServerTimeouts,
+  imageFileFilter,
+  ALLOWED_IMAGE_EXT,
+} = require("./lib/protect");
 
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
 const IS_PROD = NODE_ENV === "production";
-const BASIC_AUTH_USER = process.env.BASIC_AUTH_USER || "admin";
-const BASIC_AUTH_PASS = process.env.BASIC_AUTH_PASS || "apresentacao2024";
+const BASIC_AUTH_USER = process.env.BASIC_AUTH_USER || "";
+const BASIC_AUTH_PASS = process.env.BASIC_AUTH_PASS || "";
+const BASIC_AUTH_ENABLED = Boolean(BASIC_AUTH_USER && BASIC_AUTH_PASS);
+const PROTECT = protectConfig();
 const DATA_DIR = path.join(__dirname, "data");
 const DB_PATH = NODE_ENV === "test" ? path.join(DATA_DIR, "db.test.json") : path.join(DATA_DIR, "db.json");
 const DB_FIXTURE = path.join(DATA_DIR, "db.test.json");
@@ -19,16 +32,26 @@ const PUBLIC_UPLOADS = path.join(__dirname, "public", "uploads");
 fs.mkdirSync(UPLOADS, { recursive: true });
 fs.mkdirSync(PUBLIC_UPLOADS, { recursive: true });
 
+let dbCache = { raw: null, mtime: -1 };
+
 function loadDb() {
-  const db = JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
+  const st = fs.statSync(DB_PATH);
+  let raw = dbCache.raw;
+  if (!raw || dbCache.mtime !== st.mtimeMs) {
+    raw = fs.readFileSync(DB_PATH, "utf8");
+    dbCache = { raw, mtime: st.mtimeMs };
+  }
+  const db = JSON.parse(raw);
   if (!Array.isArray(db.ledger)) db.ledger = [];
   return db;
 }
 
 function saveDbAtomic(db) {
+  const raw = JSON.stringify(db, null, 2);
   const tmp = `${DB_PATH}.tmp`;
-  fs.writeFileSync(tmp, JSON.stringify(db, null, 2));
+  fs.writeFileSync(tmp, raw);
   fs.renameSync(tmp, DB_PATH);
+  dbCache = { raw, mtime: fs.statSync(DB_PATH).mtimeMs };
 }
 
 // Simple async-safe DB lock so concurrent writes don't clobber each other.
@@ -226,8 +249,9 @@ function requireRoles(roles) {
 const requireAdmin = requireRoles(["admin"]);
 const requireEditor = requireRoles(["admin", "editor"]);
 
-// Basic auth for public presentation access (site + catalog API)
+// Basic auth only when BASIC_AUTH_USER + BASIC_AUTH_PASS are set (no senha padrão no código).
 function basicAuth(req, res, next) {
+  if (!BASIC_AUTH_ENABLED) return next();
   if (req.path.startsWith("/api/")) return next();
   const auth = req.headers.authorization;
   if (!auth || !auth.startsWith("Basic ")) {
@@ -247,6 +271,7 @@ function basicAuth(req, res, next) {
   }
 }
 function basicAuthApi(req, res, next) {
+  if (!BASIC_AUTH_ENABLED) return next();
   const auth = req.headers.authorization;
   if (!auth || !auth.startsWith("Basic ")) {
     res.setHeader("WWW-Authenticate", 'Basic realm="GOLD SKULL"');
@@ -265,59 +290,30 @@ function basicAuthApi(req, res, next) {
   }
 }
 
-// Simple in-memory rate limiter for login
-const loginAttempts = new Map();
-function checkLoginRate(ip) {
-  const now = Date.now();
-  const record = loginAttempts.get(ip) || { count: 0, until: 0 };
-  if (record.until > now) return { blocked: true, waitSeconds: Math.ceil((record.until - now) / 1000) };
-  return { blocked: false, record };
-}
-function registerLoginFailure(ip) {
-  const now = Date.now();
-  const record = loginAttempts.get(ip) || { count: 0, until: 0 };
-  record.count += 1;
-  if (record.count >= 5) {
-    record.until = now + 15 * 60 * 1000;
-    record.count = 0;
-  }
-  loginAttempts.set(ip, record);
-  // cleanup stale entries occasionally
-  if (loginAttempts.size > 1000) {
-    for (const [k, v] of loginAttempts) {
-      if (v.until < now) loginAttempts.delete(k);
-    }
-  }
-}
-function clearLoginFailures(ip) {
-  loginAttempts.delete(ip);
-}
-
-function clientIp(req) {
-  return req.headers["x-forwarded-for"] || req.socket.remoteAddress || "unknown";
-}
-
 const storage = multer.diskStorage({
   destination: (_req, _file, cb) => cb(null, UPLOADS),
   filename: (_req, file, cb) => {
-    const ext = path.extname(file.originalname || "").toLowerCase() || ".jpg";
-    cb(null, `${uid("img")}${ext}`);
+    const ext = path.extname(file.originalname || "").toLowerCase();
+    const safeExt = ALLOWED_IMAGE_EXT.has(ext) ? ext : ".jpg";
+    cb(null, `${uid("img")}${safeExt}`);
   },
 });
 
 const upload = multer({
   storage,
-  limits: { fileSize: 8 * 1024 * 1024 },
-  fileFilter: (_req, file, cb) => {
-    if (!/^image\//.test(file.mimetype)) return cb(new Error("Envie uma imagem (jpg, png, webp)."));
-    cb(null, true);
-  },
+  limits: { fileSize: 8 * 1024 * 1024, files: 1 },
+  fileFilter: imageFileFilter,
 });
 
 const app = express();
 app.disable("x-powered-by");
 app.set("trust proxy", 1);
-app.use(express.json({ limit: "2mb" }));
+app.use(securityHeaders());
+app.use(concurrencyGate(PROTECT.maxInFlight));
+app.use(generalLimiter(PROTECT));
+app.use("/api", apiLimiter(PROTECT));
+app.use(express.json({ limit: PROTECT.jsonLimit }));
+app.use(express.urlencoded({ extended: false, limit: "64kb" }));
 
 const sessionSecret = process.env.SESSION_SECRET || "gold-skull-local-secret-troque-depois";
 if (!process.env.SESSION_SECRET) {
@@ -337,11 +333,17 @@ app.use(
     },
   })
 );
-app.use("/uploads", basicAuth, express.static(UPLOADS));
-app.use("/uploads", basicAuth, express.static(PUBLIC_UPLOADS));
-app.use(basicAuth, express.static(path.join(__dirname, "public")));
+const staticOpts = {
+  maxAge: IS_PROD ? "7d" : 0,
+  etag: true,
+  lastModified: true,
+  fallthrough: true,
+};
+app.use("/uploads", basicAuth, express.static(UPLOADS, staticOpts));
+app.use("/uploads", basicAuth, express.static(PUBLIC_UPLOADS, staticOpts));
+app.use(basicAuth, express.static(path.join(__dirname, "public"), staticOpts));
 
-app.get("/api/health", (_req, res) => res.json({ ok: true, env: NODE_ENV }));
+app.get("/api/health", (_req, res) => res.status(200).json({ ok: true }));
 
 app.get("/api/public/store", basicAuthApi, (_req, res) => {
   const db = loadDb();
@@ -364,25 +366,17 @@ app.get("/api/public/store", basicAuthApi, (_req, res) => {
   res.json({ settings: db.settings, categories: db.categories, products });
 });
 
-app.post("/api/login", (req, res) => {
+app.post("/api/login", loginLimiter(PROTECT), (req, res) => {
   const username = validUsername(req.body.username);
   const password = validPassword(req.body.password);
-  const ip = clientIp(req);
-  const rate = checkLoginRate(ip);
-  if (rate.blocked) {
-    return res.status(429).json({ error: `Muitas tentativas. Aguarde ${rate.waitSeconds}s.` });
-  }
   if (!username || !password) {
-    registerLoginFailure(ip);
     return res.status(401).json({ error: "Usuário ou senha incorretos." });
   }
   const db = loadDb();
   const user = db.users.find((u) => u.username.toLowerCase() === username);
   if (!user || !verifyPassword(password, user)) {
-    registerLoginFailure(ip);
     return res.status(401).json({ error: "Usuário ou senha incorretos." });
   }
-  clearLoginFailures(ip);
   req.session.user = { id: user.id, username: user.username, name: user.name, role: user.role };
   res.json({ user: req.session.user });
 });
@@ -647,6 +641,7 @@ if (NODE_ENV === "test") {
   app.post("/api/test/reset", (_req, res) => {
     if (!fs.existsSync(DB_FIXTURE)) return res.status(500).json({ error: "Fixture db.test.json não encontrado." });
     fs.copyFileSync(DB_FIXTURE, DB_PATH);
+    dbCache = { raw: null, mtime: -1 };
     return res.json({ ok: true });
   });
   app.post("/api/test/login", (req, res) => {
@@ -669,7 +664,9 @@ app.get("*", (req, res, next) => {
 
 // Centralized error handler
 app.use((err, _req, res, _next) => {
-  console.error(err);
+  if (err && (err.type === "entity.too.large" || err.status === 413)) {
+    return res.status(413).json({ error: "Pedido grande demais." });
+  }
   if (err && err.type === "entity.parse.failed") {
     return res.status(400).json({ error: "JSON inválido." });
   }
@@ -679,11 +676,17 @@ app.use((err, _req, res, _next) => {
   if (err && err.message && /imagem/i.test(err.message)) {
     return res.status(400).json({ error: err.message });
   }
+  console.error(err);
   if (err && err.status) return res.status(err.status).json({ error: err.message });
   res.status(500).json({ error: "Erro interno. Tente de novo." });
 });
 
-app.listen(PORT, () => {
-  console.log(`GOLD SKULL no ar: http://localhost:${PORT}`);
-  console.log(`Painel: http://localhost:${PORT}/admin`);
-});
+if (require.main === module) {
+  const server = app.listen(PORT, () => {
+    console.log(`GOLD SKULL no ar: http://localhost:${PORT}`);
+    console.log(`Painel: http://localhost:${PORT}/admin`);
+  });
+  applyServerTimeouts(server, PROTECT);
+}
+
+module.exports = { app };
