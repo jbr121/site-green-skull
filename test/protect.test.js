@@ -48,6 +48,7 @@ describe("security headers", () => {
     assert.equal(res.headers["x-frame-options"], "DENY");
     assert.match(res.headers["content-security-policy"] || "", /default-src 'self'/);
     assert.equal(res.headers["x-powered-by"], undefined);
+    assert.equal(res.headers["strict-transport-security"], undefined);
   });
 });
 
