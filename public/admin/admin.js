@@ -91,9 +91,17 @@
     if (!TAB_IDS.includes(id)) return;
     const more = $('#more-sheet');
     if (more) more.classList.add('hidden');
-    document.querySelectorAll('.tab').forEach((x) => x.classList.toggle('active', x.dataset.tab === id));
+    document.querySelectorAll('.tab').forEach((x) => {
+      const active = x.dataset.tab === id;
+      x.classList.toggle('active', active);
+      x.setAttribute('aria-pressed', String(active));
+    });
     const dockMain = ['products', 'stock', 'profit'].includes(id);
-    document.querySelectorAll('.dock-btn[data-tab]').forEach((x) => x.classList.toggle('active', x.dataset.tab === id));
+    document.querySelectorAll('.dock-btn[data-tab]').forEach((x) => {
+      const active = x.dataset.tab === id;
+      x.classList.toggle('active', active);
+      x.setAttribute('aria-pressed', String(active));
+    });
     const moreBtn = $('#dock-more');
     if (moreBtn) moreBtn.classList.toggle('active', !dockMain);
     TAB_IDS.forEach((tab) => {
@@ -556,7 +564,6 @@
     $('#s-tagline').value = s.tagline || '';
     $('#s-extra').value = s.extra || '';
     $('#s-whatsapp').value = s.whatsapp || '';
-    $('#s-instagram').value = s.instagram || '';
     $('#s-address').value = s.address || '';
     $('#s-checkoutMessage').value = s.checkoutMessage || '';
     $('#s-payments').value = (s.payments || []).join('\n');
@@ -616,7 +623,6 @@
           tagline: $('#s-tagline').value,
           extra: $('#s-extra').value,
           whatsapp: $('#s-whatsapp').value.replace(/\D/g, ''),
-          instagram: $('#s-instagram').value,
           address: $('#s-address').value,
           checkoutMessage: $('#s-checkoutMessage').value,
           payments: $('#s-payments').value.split('\n').map((x) => x.trim()).filter(Boolean),

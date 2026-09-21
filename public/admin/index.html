@@ -18,8 +18,8 @@
     <form id="login-form" class="login-box">
       <h1>GOLD SKULL</h1>
       <p>Painel da loja</p>
-      <input type="text" id="login-username" placeholder="Usuário" autocomplete="username" required />
-      <input type="password" id="login-password" placeholder="Senha" autocomplete="current-password" required />
+      <input type="text" id="login-username" placeholder="Usuário" autocomplete="username" aria-label="Usuário" required />
+      <input type="password" id="login-password" placeholder="Senha" autocomplete="current-password" aria-label="Senha" required />
       <button type="submit" class="btn btn-gold btn-big">Entrar</button>
       <p class="login-error hidden" id="login-error"></p>
     </form>
@@ -112,10 +112,7 @@
         <label>Nome da loja<input id="s-name" /></label>
         <label>Slogan<input id="s-tagline" /></label>
         <label>Texto do topo (uma linha por frase)<textarea id="s-extra" rows="4"></textarea></label>
-        <div class="grid-2">
-          <label>WhatsApp (só números, com 55 e DDD)<input id="s-whatsapp" placeholder="5583920027847" /></label>
-          <label>Instagram (usuário)<input id="s-instagram" placeholder="@GOLDSKULL" /></label>
-        </div>
+        <label>WhatsApp (só números, com 55 e DDD)<input id="s-whatsapp" placeholder="5583920027847" /></label>
         <label>Endereço / região<input id="s-address" /></label>
         <label>Mensagem que o cliente vê após o pedido<textarea id="s-checkoutMessage" rows="2"></textarea></label>
 
@@ -177,8 +174,8 @@
   </div>
 
   <!-- PRODUCT MODAL -->
-  <div class="admin-modal-backdrop hidden" id="product-modal">
-    <form class="admin-modal" id="product-form">
+  <div class="admin-modal-backdrop hidden" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="product-form-title">
+    <form class="admin-modal" id="product-form" aria-label="Formulário de produto">
       <div class="admin-modal-head">
         <h3 id="product-form-title">Anunciar produto</h3>
         <button type="button" class="modal-close" id="product-close">✕</button>
@@ -240,7 +237,7 @@
     <button type="button" class="more-item" id="more-logout">Sair</button>
   </div>
 
-  <div class="toast hidden" id="toast"></div>
-  <script src="/admin/admin.js?v=10"></script>
+  <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+  <script src="/admin/admin.js?v=12"></script>
 </body>
 </html>

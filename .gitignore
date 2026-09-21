@@ -2,3 +2,9 @@ node_modules/
 tmp-js/
 .DS_Store
 *.log
+.env*
+.env.*
+cypress/videos/
+cypress/screenshots/
+backups/
+*.tmp
